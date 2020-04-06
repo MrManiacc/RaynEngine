@@ -1,0 +1,1044 @@
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:11:46:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:11:46:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:11:46:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading local player...'.
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Injecting instances to Subsystesm...
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Scanning for shared variables in graphics subsystem
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Scanning for shared variables in input subsystem
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Initialising graphics subsystem
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Initialising input subsystem
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Initializing entity systems...
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Post-initialising graphics subsystem
+[April 06, 2020 - 03:11:47:AM] INFO GameEngine:216 - Status -> Post-initialising input subsystem
+[April 06, 2020 - 03:11:49:AM] DEBUG ChunkManager:51 - Chunk[0] at 0, 0, 0 stored in chunk manager
+[April 06, 2020 - 03:11:49:AM] DEBUG ChunkGenerator:52 - Chunk[0,0,0] blocks generated!
+[April 06, 2020 - 03:11:49:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:11:49:AM] DEBUG ChunkMeshBuilder:49 - Chunk[0, 0, 0] generated mesh!
+[April 06, 2020 - 03:11:49:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:11:49:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:11:49:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:11:49:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:11:49:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:11:49:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:11:50:AM] DEBUG ChunkManager:51 - Chunk[10] at -2, 0, 3 stored in chunk manager
+[April 06, 2020 - 03:11:50:AM] DEBUG ChunkGenerator:52 - Chunk[-2,0,3] blocks generated!
+[April 06, 2020 - 03:11:50:AM] WARN ChunkManager:48 - Chunk[10] at -2, 0, 3 was generated twice. Destroying
+[April 06, 2020 - 03:11:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-2, 0, 3] generated mesh!
+[April 06, 2020 - 03:11:50:AM] WARN ChunkManager:48 - Chunk[10] at -2, 0, 3 was generated twice. Destroying
+[April 06, 2020 - 03:11:50:AM] WARN ChunkManager:48 - Chunk[10] at -2, 0, 3 was generated twice. Destroying
+[April 06, 2020 - 03:11:52:AM] DEBUG ChunkManager:51 - Chunk[33] at 5, 2, 6 stored in chunk manager
+[April 06, 2020 - 03:11:52:AM] DEBUG ChunkGenerator:52 - Chunk[5,2,6] blocks generated!
+[April 06, 2020 - 03:11:52:AM] WARN ChunkManager:48 - Chunk[33] at 5, 2, 6 was generated twice. Destroying
+[April 06, 2020 - 03:11:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[5, 2, 6] generated mesh!
+[April 06, 2020 - 03:11:52:AM] WARN ChunkManager:48 - Chunk[33] at 5, 2, 6 was generated twice. Destroying
+[April 06, 2020 - 03:11:52:AM] WARN ChunkManager:48 - Chunk[33] at 5, 2, 6 was generated twice. Destroying
+[April 06, 2020 - 03:11:52:AM] WARN ChunkManager:48 - Chunk[33] at 5, 2, 6 was generated twice. Destroying
+[April 06, 2020 - 03:11:52:AM] WARN ChunkManager:48 - Chunk[33] at 5, 2, 6 was generated twice. Destroying
+[April 06, 2020 - 03:11:53:AM] DEBUG ChunkManager:51 - Chunk[52] at 6, 3, 10 stored in chunk manager
+[April 06, 2020 - 03:11:53:AM] DEBUG ChunkGenerator:52 - Chunk[6,3,10] blocks generated!
+[April 06, 2020 - 03:11:53:AM] WARN ChunkManager:48 - Chunk[52] at 6, 3, 10 was generated twice. Destroying
+[April 06, 2020 - 03:11:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 3, 10] generated mesh!
+[April 06, 2020 - 03:11:53:AM] DEBUG ChunkManager:51 - Chunk[53] at 7, 3, 10 stored in chunk manager
+[April 06, 2020 - 03:11:53:AM] DEBUG ChunkGenerator:52 - Chunk[7,3,10] blocks generated!
+[April 06, 2020 - 03:11:53:AM] WARN ChunkManager:48 - Chunk[53] at 7, 3, 10 was generated twice. Destroying
+[April 06, 2020 - 03:11:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 3, 10] generated mesh!
+[April 06, 2020 - 03:11:53:AM] WARN ChunkManager:48 - Chunk[53] at 7, 3, 10 was generated twice. Destroying
+[April 06, 2020 - 03:11:53:AM] WARN ChunkManager:48 - Chunk[53] at 7, 3, 10 was generated twice. Destroying
+[April 06, 2020 - 03:11:53:AM] WARN ChunkManager:48 - Chunk[53] at 7, 3, 10 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[76] at 8, 4, 15 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,4,15] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[76] at 8, 4, 15 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 4, 15] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[76] at 8, 4, 15 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[76] at 8, 4, 15 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[76] at 8, 4, 15 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[76] at 8, 4, 15 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[76] at 8, 4, 15 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[76] at 8, 4, 15 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[80] at 8, 4, 16 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,4,16] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[80] at 8, 4, 16 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 4, 16] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[80] at 8, 4, 16 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[80] at 8, 4, 16 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[84] at 8, 4, 17 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,4,17] blocks generated!
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[86] at 8, 5, 17 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 4, 17] generated mesh!
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,5,17] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[86] at 8, 5, 17 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 5, 17] generated mesh!
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[90] at 8, 5, 18 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,5,18] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[90] at 8, 5, 18 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 5, 18] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[90] at 8, 5, 18 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[90] at 8, 5, 18 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[94] at 8, 5, 19 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,5,19] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[94] at 8, 5, 19 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 5, 19] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[94] at 8, 5, 19 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[94] at 8, 5, 19 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[98] at 8, 5, 20 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,5,20] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[98] at 8, 5, 20 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 5, 20] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[98] at 8, 5, 20 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[98] at 8, 5, 20 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[102] at 8, 5, 21 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[8,5,21] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[102] at 8, 5, 21 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[8, 5, 21] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[102] at 8, 5, 21 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[101] at 7, 5, 21 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[7,5,21] blocks generated!
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[105] at 7, 5, 22 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 5, 21] generated mesh!
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[7,5,22] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[105] at 7, 5, 22 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 5, 22] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[105] at 7, 5, 22 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[105] at 7, 5, 22 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[111] at 7, 6, 23 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[7,6,23] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[111] at 7, 6, 23 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 6, 23] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[111] at 7, 6, 23 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[111] at 7, 6, 23 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkManager:51 - Chunk[115] at 7, 6, 24 stored in chunk manager
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkGenerator:52 - Chunk[7,6,24] blocks generated!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[115] at 7, 6, 24 was generated twice. Destroying
+[April 06, 2020 - 03:11:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 6, 24] generated mesh!
+[April 06, 2020 - 03:11:54:AM] WARN ChunkManager:48 - Chunk[115] at 7, 6, 24 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[115] at 7, 6, 24 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[119] at 7, 6, 25 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[7,6,25] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[119] at 7, 6, 25 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 6, 25] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[119] at 7, 6, 25 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[119] at 7, 6, 25 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[123] at 7, 6, 26 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[7,6,26] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[123] at 7, 6, 26 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 6, 26] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[123] at 7, 6, 26 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[123] at 7, 6, 26 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[127] at 7, 6, 27 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[7,6,27] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[127] at 7, 6, 27 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[7, 6, 27] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[126] at 6, 6, 27 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[6,6,27] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[126] at 6, 6, 27 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 6, 27] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[130] at 6, 6, 28 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[6,6,28] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[130] at 6, 6, 28 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 6, 28] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[132] at 6, 7, 28 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[6,7,28] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[132] at 6, 7, 28 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 7, 28] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[136] at 6, 7, 29 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[6,7,29] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[136] at 6, 7, 29 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 7, 29] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[136] at 6, 7, 29 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[136] at 6, 7, 29 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[140] at 6, 7, 30 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[6,7,30] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[140] at 6, 7, 30 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 7, 30] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[140] at 6, 7, 30 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[140] at 6, 7, 30 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[144] at 6, 7, 31 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[6,7,31] blocks generated!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[143] at 5, 7, 31 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 7, 31] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[5,7,31] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[143] at 5, 7, 31 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[5, 7, 31] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[143] at 5, 7, 31 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[147] at 5, 7, 32 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[5,7,32] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[147] at 5, 7, 32 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[5, 7, 32] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[147] at 5, 7, 32 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[147] at 5, 7, 32 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[151] at 5, 7, 33 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[5,7,33] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[151] at 5, 7, 33 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[5, 7, 33] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[153] at 5, 8, 33 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[5,8,33] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[153] at 5, 8, 33 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[5, 8, 33] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[152] at 4, 8, 33 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[4,8,33] blocks generated!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[156] at 4, 8, 34 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[4, 8, 33] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[4,8,34] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[156] at 4, 8, 34 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[4, 8, 34] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[156] at 4, 8, 34 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[156] at 4, 8, 34 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[160] at 4, 8, 35 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[4,8,35] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[160] at 4, 8, 35 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[4, 8, 35] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[160] at 4, 8, 35 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[160] at 4, 8, 35 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[163] at 3, 8, 36 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[3,8,36] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[163] at 3, 8, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[3, 8, 36] generated mesh!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[163] at 3, 8, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[163] at 3, 8, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[163] at 3, 8, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[167] at 3, 8, 37 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[3,8,37] blocks generated!
+[April 06, 2020 - 03:11:55:AM] WARN ChunkManager:48 - Chunk[167] at 3, 8, 37 was generated twice. Destroying
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[3, 8, 37] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[169] at 3, 9, 37 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[3,9,37] blocks generated!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkManager:51 - Chunk[168] at 2, 9, 37 stored in chunk manager
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[3, 9, 37] generated mesh!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkGenerator:52 - Chunk[2,9,37] blocks generated!
+[April 06, 2020 - 03:11:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[2, 9, 37] generated mesh!
+[April 06, 2020 - 03:11:57:AM] DEBUG ChunkManager:51 - Chunk[166] at -4, 13, 36 stored in chunk manager
+[April 06, 2020 - 03:11:57:AM] DEBUG ChunkGenerator:52 - Chunk[-4,13,36] blocks generated!
+[April 06, 2020 - 03:11:57:AM] WARN ChunkManager:48 - Chunk[166] at -4, 13, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:57:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-4, 13, 36] generated mesh!
+[April 06, 2020 - 03:11:57:AM] WARN ChunkManager:48 - Chunk[166] at -4, 13, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:57:AM] WARN ChunkManager:48 - Chunk[166] at -4, 13, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:57:AM] WARN ChunkManager:48 - Chunk[166] at -4, 13, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:57:AM] WARN ChunkManager:48 - Chunk[166] at -4, 13, 36 was generated twice. Destroying
+[April 06, 2020 - 03:11:57:AM] WARN ChunkManager:48 - Chunk[166] at -4, 13, 36 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[29] at 11, 9, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[11,9,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[29] at 11, 9, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[11, 9, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[29] at 11, 9, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[30] at 12, 9, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[12,9,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[30] at 12, 9, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 9, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[30] at 12, 9, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[32] at 12, 10, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[12,10,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[32] at 12, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 10, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[33] at 13, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[33] at 13, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[33] at 13, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[33] at 13, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[34] at 14, 10, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[14,10,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[34] at 14, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[14, 10, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[34] at 14, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[34] at 14, 10, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[35] at 15, 10, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[15,10,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[37] at 15, 11, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[15, 10, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[15,11,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[37] at 15, 11, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[15, 11, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[37] at 15, 11, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[38] at 16, 11, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[16,11,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[38] at 16, 11, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[16, 11, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[38] at 16, 11, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[38] at 16, 11, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[39] at 17, 11, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[17,11,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[39] at 17, 11, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[17, 11, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[39] at 17, 11, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[41] at 17, 12, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[17,12,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkManager:51 - Chunk[42] at 18, 12, 0 stored in chunk manager
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[17, 12, 0] generated mesh!
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkGenerator:52 - Chunk[18,12,0] blocks generated!
+[April 06, 2020 - 03:12:03:AM] WARN ChunkManager:48 - Chunk[42] at 18, 12, 0 was generated twice. Destroying
+[April 06, 2020 - 03:12:03:AM] DEBUG ChunkMeshBuilder:49 - Chunk[18, 12, 0] generated mesh!
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkManager:51 - Chunk[74] at 32, 17, 2 stored in chunk manager
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkGenerator:52 - Chunk[32,17,2] blocks generated!
+[April 06, 2020 - 03:12:04:AM] WARN ChunkManager:48 - Chunk[76] at 32, 18, 2 was generated twice. Destroying
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkMeshBuilder:49 - Chunk[32, 17, 2] generated mesh!
+[April 06, 2020 - 03:12:04:AM] WARN ChunkManager:48 - Chunk[76] at 32, 18, 2 was generated twice. Destroying
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkManager:51 - Chunk[77] at 33, 18, 2 stored in chunk manager
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkGenerator:52 - Chunk[33,18,2] blocks generated!
+[April 06, 2020 - 03:12:04:AM] WARN ChunkManager:48 - Chunk[77] at 33, 18, 2 was generated twice. Destroying
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkMeshBuilder:49 - Chunk[33, 18, 2] generated mesh!
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkManager:51 - Chunk[82] at 34, 18, 3 stored in chunk manager
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkGenerator:52 - Chunk[34,18,3] blocks generated!
+[April 06, 2020 - 03:12:04:AM] WARN ChunkManager:48 - Chunk[84] at 34, 19, 3 was generated twice. Destroying
+[April 06, 2020 - 03:12:04:AM] DEBUG ChunkMeshBuilder:49 - Chunk[34, 18, 3] generated mesh!
+[April 06, 2020 - 03:12:04:AM] WARN ChunkManager:48 - Chunk[84] at 34, 19, 3 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[85] at 35, 19, 3 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[35,19,3] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[85] at 35, 19, 3 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[35, 19, 3] generated mesh!
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[89] at 35, 19, 4 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[35,19,4] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[89] at 35, 19, 4 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[35, 19, 4] generated mesh!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[89] at 35, 19, 4 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[89] at 35, 19, 4 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[108] at 38, 21, 7 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[38,21,7] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[108] at 38, 21, 7 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[38, 21, 7] generated mesh!
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[112] at 38, 21, 8 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[38,21,8] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[112] at 38, 21, 8 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[38, 21, 8] generated mesh!
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[113] at 39, 21, 8 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[39,21,8] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[113] at 39, 21, 8 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[39, 21, 8] generated mesh!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[115] at 39, 22, 8 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[119] at 39, 22, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[119] at 39, 22, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[119] at 39, 22, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[119] at 39, 22, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[120] at 40, 22, 9 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[40,22,9] blocks generated!
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[124] at 40, 22, 10 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 22, 9] generated mesh!
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[40,22,10] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[124] at 40, 22, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 22, 10] generated mesh!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[124] at 40, 22, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[124] at 40, 22, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[126] at 40, 23, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[130] at 40, 23, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[131] at 41, 23, 11 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[41,23,11] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[131] at 41, 23, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[41, 23, 11] generated mesh!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[131] at 41, 23, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[131] at 41, 23, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[135] at 41, 23, 12 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[41,23,12] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[135] at 41, 23, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[41, 23, 12] generated mesh!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[135] at 41, 23, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[135] at 41, 23, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[138] at 42, 24, 12 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[42,24,12] blocks generated!
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkManager:51 - Chunk[142] at 42, 24, 13 stored in chunk manager
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[42, 24, 12] generated mesh!
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkGenerator:52 - Chunk[42,24,13] blocks generated!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[142] at 42, 24, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:05:AM] DEBUG ChunkMeshBuilder:49 - Chunk[42, 24, 13] generated mesh!
+[April 06, 2020 - 03:12:05:AM] WARN ChunkManager:48 - Chunk[142] at 42, 24, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] DEBUG ChunkManager:51 - Chunk[228] at 38, 33, 31 stored in chunk manager
+[April 06, 2020 - 03:12:07:AM] DEBUG ChunkGenerator:52 - Chunk[38,33,31] blocks generated!
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] DEBUG ChunkMeshBuilder:49 - Chunk[38, 33, 31] generated mesh!
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:07:AM] WARN ChunkManager:48 - Chunk[228] at 38, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:08:AM] DEBUG ChunkManager:51 - Chunk[230] at 40, 33, 31 stored in chunk manager
+[April 06, 2020 - 03:12:08:AM] DEBUG ChunkGenerator:52 - Chunk[40,33,31] blocks generated!
+[April 06, 2020 - 03:12:08:AM] WARN ChunkManager:48 - Chunk[230] at 40, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:08:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 33, 31] generated mesh!
+[April 06, 2020 - 03:12:08:AM] WARN ChunkManager:48 - Chunk[230] at 40, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:08:AM] WARN ChunkManager:48 - Chunk[230] at 40, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:08:AM] WARN ChunkManager:48 - Chunk[230] at 40, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:08:AM] WARN ChunkManager:48 - Chunk[230] at 40, 33, 31 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[218] at 40, 31, 29 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,31,29] blocks generated!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[218] at 40, 31, 29 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 31, 29] generated mesh!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[218] at 40, 31, 29 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[218] at 40, 31, 29 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[218] at 40, 31, 29 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[212] at 40, 30, 28 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,30,28] blocks generated!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[212] at 40, 30, 28 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 30, 28] generated mesh!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[212] at 40, 30, 28 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[206] at 40, 29, 27 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,29,27] blocks generated!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[206] at 40, 29, 27 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 29, 27] generated mesh!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[206] at 40, 29, 27 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[206] at 40, 29, 27 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[206] at 40, 29, 27 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[206] at 40, 29, 27 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[202] at 40, 29, 26 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,29,26] blocks generated!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[202] at 40, 29, 26 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 29, 26] generated mesh!
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[200] at 40, 28, 26 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,28,26] blocks generated!
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[196] at 40, 28, 25 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 28, 26] generated mesh!
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,28,25] blocks generated!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[196] at 40, 28, 25 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 28, 25] generated mesh!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[196] at 40, 28, 25 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[190] at 40, 27, 24 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,27,24] blocks generated!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[190] at 40, 27, 24 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 27, 24] generated mesh!
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkManager:51 - Chunk[188] at 40, 26, 24 stored in chunk manager
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkGenerator:52 - Chunk[40,26,24] blocks generated!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[188] at 40, 26, 24 was generated twice. Destroying
+[April 06, 2020 - 03:12:09:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 26, 24] generated mesh!
+[April 06, 2020 - 03:12:09:AM] WARN ChunkManager:48 - Chunk[188] at 40, 26, 24 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[188] at 40, 26, 24 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[184] at 40, 26, 23 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[40,26,23] blocks generated!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[184] at 40, 26, 23 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[40, 26, 23] generated mesh!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[184] at 40, 26, 23 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[184] at 40, 26, 23 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[184] at 40, 26, 23 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[181] at 39, 25, 23 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[39,25,23] blocks generated!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[181] at 39, 25, 23 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[39, 25, 23] generated mesh!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[181] at 39, 25, 23 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[177] at 39, 25, 22 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[39,25,22] blocks generated!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[177] at 39, 25, 22 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[39, 25, 22] generated mesh!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[177] at 39, 25, 22 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[177] at 39, 25, 22 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[177] at 39, 25, 22 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[177] at 39, 25, 22 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[177] at 39, 25, 22 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[175] at 39, 24, 22 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[39,24,22] blocks generated!
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[171] at 39, 24, 21 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[39, 24, 22] generated mesh!
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[39,24,21] blocks generated!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[171] at 39, 24, 21 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[39, 24, 21] generated mesh!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[171] at 39, 24, 21 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[171] at 39, 24, 21 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[171] at 39, 24, 21 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[165] at 39, 23, 20 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[39,23,20] blocks generated!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[165] at 39, 23, 20 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[39, 23, 20] generated mesh!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[165] at 39, 23, 20 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[165] at 39, 23, 20 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[165] at 39, 23, 20 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[165] at 39, 23, 20 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[158] at 38, 22, 19 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[38,22,19] blocks generated!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[158] at 38, 22, 19 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[38, 22, 19] generated mesh!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[158] at 38, 22, 19 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[158] at 38, 22, 19 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[158] at 38, 22, 19 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[152] at 38, 21, 18 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkManager:51 - Chunk[145] at 37, 20, 17 stored in chunk manager
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkGenerator:52 - Chunk[37,20,17] blocks generated!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[145] at 37, 20, 17 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] DEBUG ChunkMeshBuilder:49 - Chunk[37, 20, 17] generated mesh!
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[145] at 37, 20, 17 was generated twice. Destroying
+[April 06, 2020 - 03:12:10:AM] WARN ChunkManager:48 - Chunk[145] at 37, 20, 17 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[145] at 37, 20, 17 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[138] at 36, 19, 16 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[138] at 36, 19, 16 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[138] at 36, 19, 16 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkManager:51 - Chunk[137] at 35, 19, 16 stored in chunk manager
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkGenerator:52 - Chunk[35,19,16] blocks generated!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[137] at 35, 19, 16 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkMeshBuilder:49 - Chunk[35, 19, 16] generated mesh!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[135] at 35, 18, 16 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkManager:51 - Chunk[121] at 33, 16, 14 stored in chunk manager
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkGenerator:52 - Chunk[33,16,14] blocks generated!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[120] at 32, 16, 14 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkMeshBuilder:49 - Chunk[33, 16, 14] generated mesh!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[120] at 32, 16, 14 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkManager:51 - Chunk[114] at 32, 15, 13 stored in chunk manager
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkGenerator:52 - Chunk[32,15,13] blocks generated!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[114] at 32, 15, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkMeshBuilder:49 - Chunk[32, 15, 13] generated mesh!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[114] at 32, 15, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[114] at 32, 15, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[114] at 32, 15, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[114] at 32, 15, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[114] at 32, 15, 13 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkManager:51 - Chunk[107] at 31, 14, 12 stored in chunk manager
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkGenerator:52 - Chunk[31,14,12] blocks generated!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[107] at 31, 14, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkMeshBuilder:49 - Chunk[31, 14, 12] generated mesh!
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[107] at 31, 14, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[107] at 31, 14, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[107] at 31, 14, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[107] at 31, 14, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] WARN ChunkManager:48 - Chunk[107] at 31, 14, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkManager:51 - Chunk[104] at 30, 13, 12 stored in chunk manager
+[April 06, 2020 - 03:12:11:AM] DEBUG ChunkGenerator:52 - Chunk[30,13,12] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[104] at 30, 13, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[30, 13, 12] generated mesh!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[104] at 30, 13, 12 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[100] at 30, 13, 11 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[30,13,11] blocks generated!
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[30, 13, 11] generated mesh!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[100] at 30, 13, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[100] at 30, 13, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[99] at 29, 13, 11 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[29,13,11] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[99] at 29, 13, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[29, 13, 11] generated mesh!
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[97] at 29, 12, 11 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[29,12,11] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[97] at 29, 12, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[29, 12, 11] generated mesh!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[97] at 29, 12, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[96] at 28, 12, 11 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[28,12,11] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[96] at 28, 12, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[28, 12, 11] generated mesh!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[94] at 28, 11, 11 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[90] at 28, 11, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[90] at 28, 11, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[89] at 27, 11, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[89] at 27, 11, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[89] at 27, 11, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[88] at 26, 11, 10 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[26,11,10] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[86] at 26, 10, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[26, 11, 10] generated mesh!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[86] at 26, 10, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[86] at 26, 10, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[86] at 26, 10, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[85] at 25, 10, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[85] at 25, 10, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[85] at 25, 10, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[83] at 25, 9, 10 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[25,9,10] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[83] at 25, 9, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[25, 9, 10] generated mesh!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[83] at 25, 9, 10 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[79] at 25, 9, 9 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[25,9,9] blocks generated!
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[25, 9, 9] generated mesh!
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[78] at 24, 9, 9 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[24,9,9] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[76] at 24, 8, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[24, 9, 9] generated mesh!
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkManager:51 - Chunk[75] at 23, 8, 9 stored in chunk manager
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkGenerator:52 - Chunk[23,8,9] blocks generated!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[75] at 23, 8, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] DEBUG ChunkMeshBuilder:49 - Chunk[23, 8, 9] generated mesh!
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[75] at 23, 8, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:12:AM] WARN ChunkManager:48 - Chunk[75] at 23, 8, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:13:AM] WARN ChunkManager:48 - Chunk[75] at 23, 8, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:13:AM] WARN ChunkManager:48 - Chunk[74] at 22, 8, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:13:AM] WARN ChunkManager:48 - Chunk[74] at 22, 8, 9 was generated twice. Destroying
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkManager:51 - Chunk[72] at 22, 7, 9 stored in chunk manager
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkGenerator:52 - Chunk[22,7,9] blocks generated!
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkManager:51 - Chunk[68] at 22, 7, 8 stored in chunk manager
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkMeshBuilder:49 - Chunk[22, 7, 9] generated mesh!
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkGenerator:52 - Chunk[22,7,8] blocks generated!
+[April 06, 2020 - 03:12:13:AM] WARN ChunkManager:48 - Chunk[68] at 22, 7, 8 was generated twice. Destroying
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkMeshBuilder:49 - Chunk[22, 7, 8] generated mesh!
+[April 06, 2020 - 03:12:13:AM] WARN ChunkManager:48 - Chunk[68] at 22, 7, 8 was generated twice. Destroying
+[April 06, 2020 - 03:12:13:AM] WARN ChunkManager:48 - Chunk[68] at 22, 7, 8 was generated twice. Destroying
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkManager:51 - Chunk[67] at 21, 7, 8 stored in chunk manager
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkGenerator:52 - Chunk[21,7,8] blocks generated!
+[April 06, 2020 - 03:12:13:AM] DEBUG ChunkMeshBuilder:49 - Chunk[21, 7, 8] generated mesh!
+[April 06, 2020 - 03:12:44:AM] DEBUG ChunkManager:51 - Chunk[214] at 10, 20, 41 stored in chunk manager
+[April 06, 2020 - 03:12:44:AM] DEBUG ChunkGenerator:52 - Chunk[10,20,41] blocks generated!
+[April 06, 2020 - 03:12:44:AM] WARN ChunkManager:48 - Chunk[214] at 10, 20, 41 was generated twice. Destroying
+[April 06, 2020 - 03:12:44:AM] DEBUG ChunkMeshBuilder:49 - Chunk[10, 20, 41] generated mesh!
+[April 06, 2020 - 03:12:44:AM] WARN ChunkManager:48 - Chunk[214] at 10, 20, 41 was generated twice. Destroying
+[April 06, 2020 - 03:12:44:AM] WARN ChunkManager:48 - Chunk[214] at 10, 20, 41 was generated twice. Destroying
+[April 06, 2020 - 03:12:44:AM] WARN ChunkManager:48 - Chunk[214] at 10, 20, 41 was generated twice. Destroying
+[April 06, 2020 - 03:12:44:AM] WARN ChunkManager:48 - Chunk[214] at 10, 20, 41 was generated twice. Destroying
+[April 06, 2020 - 03:12:44:AM] WARN ChunkManager:48 - Chunk[214] at 10, 20, 41 was generated twice. Destroying
+[April 06, 2020 - 03:12:44:AM] WARN ChunkManager:48 - Chunk[214] at 10, 20, 41 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkManager:51 - Chunk[222] at 12, 21, 42 stored in chunk manager
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkGenerator:52 - Chunk[12,21,42] blocks generated!
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[222] at 12, 21, 42 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 21, 42] generated mesh!
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[222] at 12, 21, 42 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[222] at 12, 21, 42 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[222] at 12, 21, 42 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[222] at 12, 21, 42 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[222] at 12, 21, 42 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[222] at 12, 21, 42 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkManager:51 - Chunk[237] at 13, 22, 45 stored in chunk manager
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkGenerator:52 - Chunk[13,22,45] blocks generated!
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[237] at 13, 22, 45 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 22, 45] generated mesh!
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[237] at 13, 22, 45 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkManager:51 - Chunk[241] at 13, 22, 46 stored in chunk manager
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkGenerator:52 - Chunk[13,22,46] blocks generated!
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[241] at 13, 22, 46 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 22, 46] generated mesh!
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[241] at 13, 22, 46 was generated twice. Destroying
+[April 06, 2020 - 03:12:47:AM] WARN ChunkManager:48 - Chunk[241] at 13, 22, 46 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[247] at 13, 23, 47 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[13,23,47] blocks generated!
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 23, 47] generated mesh!
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[251] at 13, 23, 48 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[13,23,48] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[251] at 13, 23, 48 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 23, 48] generated mesh!
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[255] at 13, 23, 49 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[13,23,49] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[255] at 13, 23, 49 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 23, 49] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[255] at 13, 23, 49 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[255] at 13, 23, 49 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[265] at 13, 24, 51 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[13,24,51] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[265] at 13, 24, 51 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 24, 51] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[265] at 13, 24, 51 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[269] at 13, 24, 52 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[13,24,52] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[269] at 13, 24, 52 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 24, 52] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[269] at 13, 24, 52 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[269] at 13, 24, 52 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[273] at 13, 24, 53 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[13,24,53] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[273] at 13, 24, 53 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[13, 24, 53] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[273] at 13, 24, 53 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[273] at 13, 24, 53 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[272] at 12, 24, 53 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[12,24,53] blocks generated!
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[278] at 12, 25, 54 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 24, 53] generated mesh!
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[12,25,54] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[278] at 12, 25, 54 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 25, 54] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[278] at 12, 25, 54 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[278] at 12, 25, 54 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[282] at 12, 25, 55 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[12,25,55] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[282] at 12, 25, 55 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 25, 55] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[282] at 12, 25, 55 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[282] at 12, 25, 55 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[286] at 12, 25, 56 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[12,25,56] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[286] at 12, 25, 56 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 25, 56] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[286] at 12, 25, 56 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[286] at 12, 25, 56 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[290] at 12, 25, 57 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[12,25,57] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[290] at 12, 25, 57 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 25, 57] generated mesh!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[290] at 12, 25, 57 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[292] at 12, 26, 57 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[12,26,57] blocks generated!
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkManager:51 - Chunk[296] at 12, 26, 58 stored in chunk manager
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 26, 57] generated mesh!
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkGenerator:52 - Chunk[12,26,58] blocks generated!
+[April 06, 2020 - 03:12:48:AM] WARN ChunkManager:48 - Chunk[296] at 12, 26, 58 was generated twice. Destroying
+[April 06, 2020 - 03:12:48:AM] DEBUG ChunkMeshBuilder:49 - Chunk[12, 26, 58] generated mesh!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkManager:51 - Chunk[332] at 6, 29, 67 stored in chunk manager
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkGenerator:52 - Chunk[6,29,67] blocks generated!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkManager:51 - Chunk[336] at 6, 29, 68 stored in chunk manager
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 29, 67] generated mesh!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkGenerator:52 - Chunk[6,29,68] blocks generated!
+[April 06, 2020 - 03:12:49:AM] WARN ChunkManager:48 - Chunk[336] at 6, 29, 68 was generated twice. Destroying
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkMeshBuilder:49 - Chunk[6, 29, 68] generated mesh!
+[April 06, 2020 - 03:12:49:AM] WARN ChunkManager:48 - Chunk[336] at 6, 29, 68 was generated twice. Destroying
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkManager:51 - Chunk[340] at 4, 30, 69 stored in chunk manager
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkGenerator:52 - Chunk[4,30,69] blocks generated!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkManager:51 - Chunk[344] at 4, 30, 70 stored in chunk manager
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkMeshBuilder:49 - Chunk[4, 30, 69] generated mesh!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkGenerator:52 - Chunk[4,30,70] blocks generated!
+[April 06, 2020 - 03:12:49:AM] WARN ChunkManager:48 - Chunk[344] at 4, 30, 70 was generated twice. Destroying
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkMeshBuilder:49 - Chunk[4, 30, 70] generated mesh!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkManager:51 - Chunk[352] at 2, 31, 72 stored in chunk manager
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkGenerator:52 - Chunk[2,31,72] blocks generated!
+[April 06, 2020 - 03:12:49:AM] WARN ChunkManager:48 - Chunk[352] at 2, 31, 72 was generated twice. Destroying
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkMeshBuilder:49 - Chunk[2, 31, 72] generated mesh!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkManager:51 - Chunk[351] at 1, 31, 72 stored in chunk manager
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkGenerator:52 - Chunk[1,31,72] blocks generated!
+[April 06, 2020 - 03:12:49:AM] WARN ChunkManager:48 - Chunk[351] at 1, 31, 72 was generated twice. Destroying
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkMeshBuilder:49 - Chunk[1, 31, 72] generated mesh!
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkManager:51 - Chunk[355] at 1, 31, 73 stored in chunk manager
+[April 06, 2020 - 03:12:49:AM] DEBUG ChunkGenerator:52 - Chunk[1,31,73] blocks generated!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[1, 31, 73] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[360] at 0, 32, 74 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[0,32,74] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[360] at 0, 32, 74 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[0, 32, 74] generated mesh!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[360] at 0, 32, 74 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[360] at 0, 32, 74 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[367] at -1, 32, 76 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-1,32,76] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[367] at -1, 32, 76 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-1, 32, 76] generated mesh!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[367] at -1, 32, 76 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[367] at -1, 32, 76 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[367] at -1, 32, 76 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[372] at -2, 33, 77 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-2,33,77] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[372] at -2, 33, 77 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-2, 33, 77] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[371] at -3, 33, 77 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-3,33,77] blocks generated!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[375] at -3, 33, 78 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-3, 33, 77] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-3,33,78] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[375] at -3, 33, 78 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-3, 33, 78] generated mesh!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[375] at -3, 33, 78 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[375] at -3, 33, 78 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[375] at -3, 33, 78 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[378] at -4, 33, 79 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-4,33,79] blocks generated!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-4, 33, 79] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[379] at -5, 34, 79 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-5,34,79] blocks generated!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[383] at -5, 34, 80 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-5, 34, 79] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-5,34,80] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[383] at -5, 34, 80 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-5, 34, 80] generated mesh!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[383] at -5, 34, 80 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[383] at -5, 34, 80 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[386] at -6, 34, 81 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-6,34,81] blocks generated!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[388] at -6, 35, 81 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-6, 34, 81] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-6,35,81] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[388] at -6, 35, 81 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-6, 35, 81] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[387] at -7, 35, 81 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-7,35,81] blocks generated!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[391] at -7, 35, 82 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-7, 35, 81] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-7,35,82] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[391] at -7, 35, 82 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-7, 35, 82] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[390] at -8, 35, 82 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-8,35,82] blocks generated!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[394] at -8, 35, 83 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-8, 35, 82] generated mesh!
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-8,35,83] blocks generated!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[394] at -8, 35, 83 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-8, 35, 83] generated mesh!
+[April 06, 2020 - 03:12:50:AM] WARN ChunkManager:48 - Chunk[394] at -8, 35, 83 was generated twice. Destroying
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkManager:51 - Chunk[393] at -9, 35, 83 stored in chunk manager
+[April 06, 2020 - 03:12:50:AM] DEBUG ChunkGenerator:52 - Chunk[-9,35,83] blocks generated!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-9, 35, 83] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[399] at -9, 36, 84 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-9,36,84] blocks generated!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[398] at -10, 36, 84 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-9, 36, 84] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-10,36,84] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[398] at -10, 36, 84 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-10, 36, 84] generated mesh!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[398] at -10, 36, 84 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[402] at -10, 36, 85 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-10,36,85] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[402] at -10, 36, 85 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-10, 36, 85] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[407] at -11, 37, 86 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-11,37,86] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[407] at -11, 37, 86 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-11, 37, 86] generated mesh!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[407] at -11, 37, 86 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[406] at -12, 37, 86 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-12,37,86] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[406] at -12, 37, 86 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-12, 37, 86] generated mesh!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[406] at -12, 37, 86 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[410] at -12, 37, 87 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-12,37,87] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[410] at -12, 37, 87 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-12, 37, 87] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[409] at -13, 37, 87 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-13,37,87] blocks generated!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[413] at -13, 37, 88 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-13, 37, 87] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-13,37,88] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[413] at -13, 37, 88 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-13, 37, 88] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[414] at -14, 38, 88 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-14,38,88] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[414] at -14, 38, 88 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-14, 38, 88] generated mesh!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[414] at -14, 38, 88 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[414] at -14, 38, 88 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[417] at -15, 38, 89 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-15,38,89] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[417] at -15, 38, 89 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-15, 38, 89] generated mesh!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[417] at -15, 38, 89 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[420] at -16, 38, 90 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-16,38,90] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[420] at -16, 38, 90 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-16, 38, 90] generated mesh!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[420] at -16, 38, 90 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[425] at -17, 39, 91 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-17,39,91] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[425] at -17, 39, 91 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-17, 39, 91] generated mesh!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[425] at -17, 39, 91 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[425] at -17, 39, 91 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[425] at -17, 39, 91 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[428] at -18, 39, 92 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-18,39,92] blocks generated!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[427] at -19, 39, 92 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-18, 39, 92] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-19,39,92] blocks generated!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[429] at -19, 40, 92 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-19, 39, 92] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-19,40,92] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[429] at -19, 40, 92 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-19, 40, 92] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[433] at -19, 40, 93 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-19,40,93] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[433] at -19, 40, 93 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-19, 40, 93] generated mesh!
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkManager:51 - Chunk[432] at -20, 40, 93 stored in chunk manager
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkGenerator:52 - Chunk[-20,40,93] blocks generated!
+[April 06, 2020 - 03:12:51:AM] WARN ChunkManager:48 - Chunk[432] at -20, 40, 93 was generated twice. Destroying
+[April 06, 2020 - 03:12:51:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-20, 40, 93] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[435] at -21, 40, 94 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-21,40,94] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[435] at -21, 40, 94 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-21, 40, 94] generated mesh!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[435] at -21, 40, 94 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[437] at -21, 41, 94 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-21,41,94] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[441] at -21, 41, 95 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-21, 41, 94] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-21,41,95] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[440] at -22, 41, 95 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-21, 41, 95] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-22,41,95] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[440] at -22, 41, 95 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-22, 41, 95] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[443] at -23, 41, 96 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-23,41,96] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[443] at -23, 41, 96 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-23, 41, 96] generated mesh!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[443] at -23, 41, 96 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[443] at -23, 41, 96 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[443] at -23, 41, 96 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[442] at -24, 41, 96 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-24,41,96] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-24, 41, 96] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[448] at -24, 42, 97 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-24,42,97] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[448] at -24, 42, 97 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-24, 42, 97] generated mesh!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[448] at -24, 42, 97 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[447] at -25, 42, 97 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-25,42,97] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[447] at -25, 42, 97 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-25, 42, 97] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[451] at -25, 42, 98 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-25,42,98] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[451] at -25, 42, 98 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-25, 42, 98] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[450] at -26, 42, 98 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-26,42,98] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[454] at -26, 42, 99 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-26, 42, 98] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-26,42,99] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[456] at -26, 43, 99 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-26, 42, 99] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-26,43,99] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[455] at -27, 43, 99 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-26, 43, 99] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-27,43,99] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[455] at -27, 43, 99 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-27, 43, 99] generated mesh!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[455] at -27, 43, 99 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[459] at -27, 43, 100 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-27,43,100] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[458] at -28, 43, 100 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-27, 43, 100] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-28,43,100] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[458] at -28, 43, 100 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-28, 43, 100] generated mesh!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[458] at -28, 43, 100 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[458] at -28, 43, 100 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[463] at -29, 44, 101 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-29,44,101] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[463] at -29, 44, 101 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-29, 44, 101] generated mesh!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[463] at -29, 44, 101 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[462] at -30, 44, 101 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-30,44,101] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[466] at -30, 44, 102 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-30, 44, 101] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-30,44,102] blocks generated!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[466] at -30, 44, 102 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-30, 44, 102] generated mesh!
+[April 06, 2020 - 03:12:52:AM] WARN ChunkManager:48 - Chunk[466] at -30, 44, 102 was generated twice. Destroying
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[465] at -31, 44, 102 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-31,44,102] blocks generated!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkManager:51 - Chunk[469] at -31, 44, 103 stored in chunk manager
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-31, 44, 102] generated mesh!
+[April 06, 2020 - 03:12:52:AM] DEBUG ChunkGenerator:52 - Chunk[-31,44,103] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[469] at -31, 44, 103 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-31, 44, 103] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[470] at -32, 45, 103 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-32,45,103] blocks generated!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-32, 45, 103] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[473] at -33, 45, 104 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-33,45,104] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[473] at -33, 45, 104 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-33, 45, 104] generated mesh!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[473] at -33, 45, 104 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[473] at -33, 45, 104 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[473] at -33, 45, 104 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[476] at -34, 45, 105 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-34,45,105] blocks generated!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-34, 45, 105] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[477] at -35, 46, 105 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-35,46,105] blocks generated!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[481] at -35, 46, 106 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-35, 46, 105] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-35,46,106] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[481] at -35, 46, 106 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-35, 46, 106] generated mesh!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[481] at -35, 46, 106 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[481] at -35, 46, 106 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[484] at -36, 46, 107 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-36,46,107] blocks generated!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[483] at -37, 46, 107 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-36, 46, 107] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-37,46,107] blocks generated!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[485] at -37, 47, 107 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-37, 46, 107] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-37,47,107] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[485] at -37, 47, 107 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-37, 47, 107] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[489] at -37, 47, 108 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-37,47,108] blocks generated!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-37, 47, 108] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[488] at -38, 47, 108 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-38,47,108] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[488] at -38, 47, 108 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-38, 47, 108] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[491] at -39, 47, 109 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-39,47,109] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[491] at -39, 47, 109 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-39, 47, 109] generated mesh!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[491] at -39, 47, 109 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[491] at -39, 47, 109 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[496] at -40, 48, 110 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-40,48,110] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[496] at -40, 48, 110 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-40, 48, 110] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[495] at -41, 48, 110 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-41,48,110] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[495] at -41, 48, 110 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-41, 48, 110] generated mesh!
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[499] at -41, 48, 111 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-41,48,111] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[499] at -41, 48, 111 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-41, 48, 111] generated mesh!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[499] at -41, 48, 111 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[499] at -41, 48, 111 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkManager:51 - Chunk[503] at -43, 49, 112 stored in chunk manager
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkGenerator:52 - Chunk[-43,49,112] blocks generated!
+[April 06, 2020 - 03:12:53:AM] WARN ChunkManager:48 - Chunk[503] at -43, 49, 112 was generated twice. Destroying
+[April 06, 2020 - 03:12:53:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-43, 49, 112] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[503] at -43, 49, 112 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[503] at -43, 49, 112 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[507] at -43, 49, 113 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-43,49,113] blocks generated!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-43, 49, 113] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[507] at -45, 50, 113 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[511] at -45, 50, 114 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-45,50,114] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[511] at -45, 50, 114 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-45, 50, 114] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[511] at -45, 50, 114 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[514] at -46, 50, 115 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-46,50,115] blocks generated!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[513] at -47, 50, 115 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-46, 50, 115] generated mesh!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-47,50,115] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[513] at -47, 50, 115 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-47, 50, 115] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[513] at -47, 50, 115 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[515] at -47, 51, 115 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-47,51,115] blocks generated!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-47, 51, 115] generated mesh!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[518] at -48, 51, 116 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-48,51,116] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[518] at -48, 51, 116 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-48, 51, 116] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[518] at -48, 51, 116 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[521] at -49, 51, 117 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-49,51,117] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[521] at -49, 51, 117 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-49, 51, 117] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[521] at -49, 51, 117 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[521] at -49, 51, 117 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[526] at -50, 52, 118 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-50,52,118] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[526] at -50, 52, 118 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-50, 52, 118] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[526] at -50, 52, 118 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[525] at -51, 52, 118 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-51,52,118] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[525] at -51, 52, 118 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-51, 52, 118] generated mesh!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[528] at -52, 52, 119 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-52,52,119] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[528] at -52, 52, 119 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-52, 52, 119] generated mesh!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[528] at -52, 52, 119 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[528] at -52, 52, 119 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[532] at -54, 53, 120 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-54,53,120] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[532] at -54, 53, 120 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-54, 53, 120] generated mesh!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[536] at -54, 53, 121 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-54,53,121] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[536] at -54, 53, 121 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-54, 53, 121] generated mesh!
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkManager:51 - Chunk[535] at -55, 53, 121 stored in chunk manager
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkGenerator:52 - Chunk[-55,53,121] blocks generated!
+[April 06, 2020 - 03:12:54:AM] WARN ChunkManager:48 - Chunk[535] at -55, 53, 121 was generated twice. Destroying
+[April 06, 2020 - 03:12:54:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-55, 53, 121] generated mesh!
+[April 06, 2020 - 03:12:55:AM] WARN ChunkManager:48 - Chunk[535] at -55, 53, 121 was generated twice. Destroying
+[April 06, 2020 - 03:12:55:AM] WARN ChunkManager:48 - Chunk[535] at -55, 53, 121 was generated twice. Destroying
+[April 06, 2020 - 03:12:55:AM] DEBUG ChunkManager:51 - Chunk[541] at -55, 54, 122 stored in chunk manager
+[April 06, 2020 - 03:12:55:AM] DEBUG ChunkGenerator:52 - Chunk[-55,54,122] blocks generated!
+[April 06, 2020 - 03:12:55:AM] DEBUG ChunkManager:51 - Chunk[540] at -56, 54, 122 stored in chunk manager
+[April 06, 2020 - 03:12:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-55, 54, 122] generated mesh!
+[April 06, 2020 - 03:12:55:AM] DEBUG ChunkGenerator:52 - Chunk[-56,54,122] blocks generated!
+[April 06, 2020 - 03:12:55:AM] DEBUG ChunkMeshBuilder:49 - Chunk[-56, 54, 122] generated mesh!

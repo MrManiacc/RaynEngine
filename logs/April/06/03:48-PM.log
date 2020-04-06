@@ -1,0 +1,1174 @@
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:21:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:21:PM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:48:21:PM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:48:21:PM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:48:21:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:21:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:48:21:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:27:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading local player...'.
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Injecting instances to Subsystesm...
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Scanning for shared variables in graphics subsystem
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Scanning for shared variables in input subsystem
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Initialising graphics subsystem
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Initialising input subsystem
+[April 06, 2020 - 03:48:27:PM] INFO GameEngine:216 - Status -> Initializing entity systems...
+[April 06, 2020 - 03:48:28:PM] INFO GameEngine:216 - Status -> Post-initialising graphics subsystem
+[April 06, 2020 - 03:48:28:PM] INFO GameEngine:216 - Status -> Post-initialising input subsystem
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,0,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,0,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-160,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,0,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,32,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,32,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,64,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-160,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-32,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-160,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,0,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,0,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-160,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,-128,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,0,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-32,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,32,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,-128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-96,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,128,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-96,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-64,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,128,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,-96,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-128,-96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-160,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,32,128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,64,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-32,-96,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,-32,64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,64,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,128,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[128,32,32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[32,-64,96] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-128,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,-160,-64] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[96,-32,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[64,96,-32] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-128,96,0] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,128,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-96,-96,-128] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[0,64,-160] blocks generated!
+[April 06, 2020 - 03:48:28:PM] DEBUG ChunkGenerator:54 - Chunk[-64,0,128] blocks generated!
+[April 06, 2020 - 03:48:29:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-96, 96, -160] generated mesh!
+[April 06, 2020 - 03:48:29:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, 128, 128] generated mesh!
+[April 06, 2020 - 03:48:30:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, -96, -64] generated mesh!
+[April 06, 2020 - 03:48:30:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, 96, -128] generated mesh!
+[April 06, 2020 - 03:48:30:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -64, 0] generated mesh!
+[April 06, 2020 - 03:48:30:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -64, 96] generated mesh!
+[April 06, 2020 - 03:48:31:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, 96, 64] generated mesh!
+[April 06, 2020 - 03:48:31:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-32, -32, 0] generated mesh!
+[April 06, 2020 - 03:48:31:PM] DEBUG ChunkMeshBuilder:54 - Chunk[128, -32, -64] generated mesh!
+[April 06, 2020 - 03:48:32:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, 32, 64] generated mesh!
+[April 06, 2020 - 03:48:32:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, -96, -96] generated mesh!
+[April 06, 2020 - 03:48:32:PM] DEBUG ChunkMeshBuilder:54 - Chunk[96, 32, 32] generated mesh!
+[April 06, 2020 - 03:48:33:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, -96, 128] generated mesh!
+[April 06, 2020 - 03:48:33:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -32, 96] generated mesh!
+[April 06, 2020 - 03:48:33:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, 96, -64] generated mesh!
+[April 06, 2020 - 03:48:33:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, 32, -160] generated mesh!
+[April 06, 2020 - 03:48:34:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -32, 128] generated mesh!
+[April 06, 2020 - 03:48:34:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, -128, -160] generated mesh!
+[April 06, 2020 - 03:48:34:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -160, -160] generated mesh!
+[April 06, 2020 - 03:48:35:PM] DEBUG ChunkMeshBuilder:54 - Chunk[0, 0, -32] generated mesh!
+[April 06, 2020 - 03:48:35:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, -160, 96] generated mesh!
+[April 06, 2020 - 03:48:35:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, -64, -128] generated mesh!
+[April 06, 2020 - 03:48:36:PM] DEBUG ChunkMeshBuilder:54 - Chunk[128, 96, 128] generated mesh!
+[April 06, 2020 - 03:48:36:PM] DEBUG ChunkMeshBuilder:54 - Chunk[128, 32, 96] generated mesh!
+[April 06, 2020 - 03:48:36:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, 128, 96] generated mesh!
+[April 06, 2020 - 03:48:37:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, 64, -128] generated mesh!
+[April 06, 2020 - 03:48:37:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, -128, -96] generated mesh!
+[April 06, 2020 - 03:48:37:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, -128, 128] generated mesh!
+[April 06, 2020 - 03:48:37:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, -96, 128] generated mesh!
+[April 06, 2020 - 03:48:38:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, -128, -160] generated mesh!
+[April 06, 2020 - 03:48:38:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, -96, 64] generated mesh!
+[April 06, 2020 - 03:48:38:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -96, -160] generated mesh!
+[April 06, 2020 - 03:48:39:PM] DEBUG ChunkMeshBuilder:54 - Chunk[64, 128, -160] generated mesh!
+[April 06, 2020 - 03:48:39:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -96, -128] generated mesh!
+[April 06, 2020 - 03:48:39:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-96, -64, -96] generated mesh!
+[April 06, 2020 - 03:48:40:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, 64, -32] generated mesh!
+[April 06, 2020 - 03:48:40:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-32, 96, -32] generated mesh!
+[April 06, 2020 - 03:48:40:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, 64, -32] generated mesh!
+[April 06, 2020 - 03:48:40:PM] DEBUG ChunkMeshBuilder:54 - Chunk[128, 96, -96] generated mesh!
+[April 06, 2020 - 03:48:41:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, -160, 64] generated mesh!
+[April 06, 2020 - 03:48:41:PM] DEBUG ChunkMeshBuilder:54 - Chunk[0, 96, -96] generated mesh!
+[April 06, 2020 - 03:48:41:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, -96, 0] generated mesh!
+[April 06, 2020 - 03:48:42:PM] DEBUG ChunkMeshBuilder:54 - Chunk[64, -96, 0] generated mesh!
+[April 06, 2020 - 03:48:43:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, 96, -128] generated mesh!
+[April 06, 2020 - 03:48:43:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, -160, 96] generated mesh!
+[April 06, 2020 - 03:48:44:PM] DEBUG ChunkMeshBuilder:54 - Chunk[64, 96, 128] generated mesh!
+[April 06, 2020 - 03:48:44:PM] DEBUG ChunkMeshBuilder:54 - Chunk[32, -96, 128] generated mesh!
+[April 06, 2020 - 03:48:44:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-96, -64, -128] generated mesh!
+[April 06, 2020 - 03:48:45:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-160, 128, -64] generated mesh!
+[April 06, 2020 - 03:48:45:PM] DEBUG ChunkMeshBuilder:54 - Chunk[128, 64, 96] generated mesh!
+[April 06, 2020 - 03:48:45:PM] DEBUG ChunkMeshBuilder:54 - Chunk[96, 96, 0] generated mesh!
+[April 06, 2020 - 03:48:46:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-32, -160, 128] generated mesh!
+[April 06, 2020 - 03:48:46:PM] DEBUG ChunkMeshBuilder:54 - Chunk[96, -128, 96] generated mesh!
+[April 06, 2020 - 03:48:46:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, -96, -64] generated mesh!
+[April 06, 2020 - 03:48:47:PM] DEBUG ChunkMeshBuilder:54 - Chunk[128, -160, -32] generated mesh!
+[April 06, 2020 - 03:48:47:PM] DEBUG ChunkMeshBuilder:54 - Chunk[64, 0, 0] generated mesh!
+[April 06, 2020 - 03:48:47:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-96, -96, 0] generated mesh!
+[April 06, 2020 - 03:48:48:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, 32, -96] generated mesh!
+[April 06, 2020 - 03:48:48:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-32, -96, 96] generated mesh!
+[April 06, 2020 - 03:48:48:PM] DEBUG ChunkMeshBuilder:54 - Chunk[96, -64, 128] generated mesh!
+[April 06, 2020 - 03:48:49:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-64, 32, 0] generated mesh!
+[April 06, 2020 - 03:48:49:PM] DEBUG ChunkMeshBuilder:54 - Chunk[0, -96, 32] generated mesh!
+[April 06, 2020 - 03:48:49:PM] DEBUG ChunkMeshBuilder:54 - Chunk[128, 0, -160] generated mesh!
+[April 06, 2020 - 03:48:49:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, 32, -64] generated mesh!
+[April 06, 2020 - 03:48:50:PM] DEBUG ChunkMeshBuilder:54 - Chunk[-128, -32, 96] generated mesh!
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:53:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:53:PM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:48:53:PM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:48:54:PM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:48:54:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:54:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:48:54:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:56:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:56:PM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:48:56:PM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:48:56:PM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:48:56:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:56:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:48:56:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:48:58:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:48:58:PM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:48:58:PM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:48:59:PM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:48:59:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:48:59:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:48:59:PM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.

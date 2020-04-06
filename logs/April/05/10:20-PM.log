@@ -1,0 +1,9 @@
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:87 - Found load process 'com.jgfx.player.load.PlayerLoader', with order '10'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 05, 2020 - 10:20:43:PM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.

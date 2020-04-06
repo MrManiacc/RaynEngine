@@ -1,0 +1,306 @@
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:05:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:05:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:05:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:05:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:05:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:07:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:07:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:08:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:08:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:10:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:10:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:10:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:10:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:12:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:12:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:12:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:12:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:12:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:14:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:14:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:14:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:14:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:14:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:16:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:16:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:16:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:16:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:16:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:18:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:18:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:18:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:18:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:18:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:20:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:20:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:20:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:20:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:20:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:22:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:22:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:22:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:22:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:22:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:24:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:24:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:24:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:24:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:24:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:26:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:26:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:26:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:26:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:26:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:27:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:28:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:28:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:28:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:28:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:29:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:29:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:29:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:30:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:30:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:31:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:31:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:31:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:32:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:32:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:33:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:33:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:33:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:33:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:33:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:35:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:35:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:35:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:35:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:35:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:49:37:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:49:37:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:49:37:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:49:37:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:49:37:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.

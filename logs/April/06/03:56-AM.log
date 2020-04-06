@@ -1,0 +1,69 @@
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:56:07:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:56:07:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:56:07:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:56:07:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:56:07:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:56:08:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:56:08:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:82 - Found entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkNeighborBuilder'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkSynthesizer'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkMeshBuilder'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.player.systems.SimplePlayerMove'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkRenderer'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkGenerator'.
+[April 06, 2020 - 03:56:10:AM] DEBUG GameRunner:124 - Successfully instantiated entity system 'com.jgfx.chunk.systems.ChunkManager'.
+[April 06, 2020 - 03:56:10:AM] INFO GameEngine:216 - Status -> Preparing Subsystems...
+[April 06, 2020 - 03:56:10:AM] INFO GameEngine:216 - Status -> Pre-initialising graphics subsystem
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Pre-initialising input subsystem
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading default shapes'.
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading assets'.
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Beginning load process: 'Loading local player...'.
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Injecting instances to Subsystesm...
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Scanning for shared variables in graphics subsystem
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Scanning for shared variables in input subsystem
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Initialising graphics subsystem
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Initialising input subsystem
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Initializing entity systems...
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Post-initialising graphics subsystem
+[April 06, 2020 - 03:56:11:AM] INFO GameEngine:216 - Status -> Post-initialising input subsystem
+[April 06, 2020 - 03:56:12:AM] DEBUG ChunkManager:51 - Chunk[0] at 0, 0, 0 stored in chunk manager
+[April 06, 2020 - 03:56:12:AM] DEBUG ChunkGenerator:52 - Chunk[0,0,0] blocks generated!
+[April 06, 2020 - 03:56:12:AM] WARN ChunkManager:48 - Chunk[0] at 0, 0, 0 was generated twice. Destroying
+[April 06, 2020 - 03:56:13:AM] DEBUG ChunkMeshBuilder:51 - Chunk[0, 0, 0] generated mesh!
+[April 06, 2020 - 03:56:14:AM] DEBUG ChunkManager:51 - Chunk[37] at -1, 1, 9 stored in chunk manager
+[April 06, 2020 - 03:56:14:AM] DEBUG ChunkGenerator:52 - Chunk[-1,1,9] blocks generated!
+[April 06, 2020 - 03:56:14:AM] WARN ChunkManager:48 - Chunk[37] at -1, 1, 9 was generated twice. Destroying
+[April 06, 2020 - 03:56:14:AM] DEBUG ChunkMeshBuilder:51 - Chunk[-1, 1, 9] generated mesh!
+[April 06, 2020 - 03:56:15:AM] DEBUG ChunkManager:51 - Chunk[75] at -11, 1, 21 stored in chunk manager
+[April 06, 2020 - 03:56:15:AM] DEBUG ChunkGenerator:52 - Chunk[-11,1,21] blocks generated!
+[April 06, 2020 - 03:56:15:AM] WARN ChunkManager:48 - Chunk[75] at -11, 1, 21 was generated twice. Destroying
+[April 06, 2020 - 03:56:16:AM] DEBUG ChunkMeshBuilder:51 - Chunk[-11, 1, 21] generated mesh!
+[April 06, 2020 - 03:56:16:AM] DEBUG ChunkManager:51 - Chunk[101] at -21, 1, 30 stored in chunk manager
+[April 06, 2020 - 03:56:16:AM] DEBUG ChunkGenerator:52 - Chunk[-21,1,30] blocks generated!
+[April 06, 2020 - 03:56:16:AM] WARN ChunkManager:48 - Chunk[101] at -21, 1, 30 was generated twice. Destroying
+[April 06, 2020 - 03:56:16:AM] DEBUG ChunkMeshBuilder:51 - Chunk[-21, 1, 30] generated mesh!
+[April 06, 2020 - 03:56:20:AM] DEBUG ChunkManager:51 - Chunk[112] at -16, 14, 25 stored in chunk manager
+[April 06, 2020 - 03:56:20:AM] DEBUG ChunkGenerator:52 - Chunk[-16,14,25] blocks generated!
+[April 06, 2020 - 03:56:20:AM] WARN ChunkManager:48 - Chunk[112] at -16, 14, 25 was generated twice. Destroying
+[April 06, 2020 - 03:56:20:AM] DEBUG ChunkMeshBuilder:51 - Chunk[-16, 14, 25] generated mesh!

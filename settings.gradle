@@ -1,0 +1,5 @@
+rootProject.name = 'base-engine'
+include ':engine'
+include ':asset-lib'
+include ':pong-game'
+include ':voxel-game'

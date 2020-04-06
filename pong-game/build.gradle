@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.jgfx'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":engine")
+    implementation "org.joml:joml:1.9.23"
+}
