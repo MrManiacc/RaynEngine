@@ -61,7 +61,6 @@ public class ShaderFormat extends AbstractAssetFileFormat<ShaderData> {
             if (!line.trim().startsWith("//"))
                 fragSrc.add(line);
         }
-//        System.out.println(urn);
         return new ShaderData(urn.getFragmentName().toLowerCase(), vertSrc.toArray(new String[0]), fragSrc.toArray(new String[0]), customLines);
     }
 

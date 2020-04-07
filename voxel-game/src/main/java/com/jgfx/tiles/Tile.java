@@ -3,6 +3,11 @@ package com.jgfx.tiles;
 import com.jgfx.assets.Asset;
 import com.jgfx.assets.type.AssetType;
 import com.jgfx.assets.urn.ResourceUrn;
+import com.jgfx.image.STBImage;
+import lombok.Getter;
+import lombok.Setter;
+import org.joml.Vector4d;
+import org.joml.Vector4f;
 
 import java.awt.image.BufferedImage;
 
@@ -10,7 +15,11 @@ import java.awt.image.BufferedImage;
  * Represents a generic image/tile that can be loaded into an atlas
  */
 public class Tile extends Asset<TileData> {
-    private BufferedImage[] images;
+    @Getter
+    private STBImage image;
+    @Getter
+    @Setter
+    private Vector4f coords;
 
     /**
      * The constructor for an asset. It is suggested that implementing classes provide a constructor taking both the urn, and an initial AssetData to load.
@@ -30,28 +39,8 @@ public class Tile extends Asset<TileData> {
      */
     @Override
     public void reload(TileData data) {
-        this.images = data.getImages();
+        this.image = data.getImage();
     }
 
-    /**
-     * @return returns the first (or only image)
-     */
-    public BufferedImage getImage() {
-        return getImage(0);
-    }
-
-    /**
-     * @return returns the image at the given index
-     */
-    public BufferedImage getImage(int index) {
-        return images[index];
-    }
-
-    /**
-     * @return returns the number of images this tile represents
-     */
-    public int getLength() {
-        return images.length;
-    }
 
 }

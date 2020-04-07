@@ -17,7 +17,7 @@ public class AssetTypeManager {
     private final Map<Class<? extends Asset>, AssetType<?, ?>> assetTypes = Maps.newHashMap();
     private final Map<Class<? extends Asset>, String> assetFolders = Maps.newHashMap();
     private final Map<Class<? extends Asset>, AbstractAssetFileFormat<? extends AssetData>> assetFormat = Maps.newHashMap();
-
+    private final Set<Class<? extends Asset>> resolvedTypes = Sets.newConcurrentHashSet();
     /**
      * Registers an asset type. It will be available after the next time
      * read from modules from the provided subfolders. If there are no subfolders then assets will not be loaded from modules.
@@ -29,11 +29,14 @@ public class AssetTypeManager {
      * @param <U>       The type of asset data
      */
     public synchronized <T extends Asset<U>, U extends AssetData> void registerAssetType(Class<T> type, AssetFactory<T, U> factory, AbstractAssetFileFormat<U> format, String subfolder) {
-        Preconditions.checkState(!assetTypes.containsKey(type), "Asset type '" + type.getSimpleName() + "' already registered");
-        assetFormat.put(type, format);
-        AssetType<T, U> assetType = new AssetType<>(type, factory);
-        this.assetTypes.put(type, assetType);
-        this.assetFolders.put(type, subfolder);
+        if(!resolvedTypes.contains(type)) {
+            Preconditions.checkState(!assetTypes.containsKey(type), "Asset type '" + type.getSimpleName() + "' already registered");
+            assetFormat.put(type, format);
+            AssetType<T, U> assetType = new AssetType<>(type, factory);
+            this.assetTypes.put(type, assetType);
+            this.assetFolders.put(type, subfolder);
+            this.resolvedTypes.add(type);
+        }
     }
 
     /**
@@ -67,6 +70,20 @@ public class AssetTypeManager {
      */
     public Collection<Class<? extends Asset>> getRegisteredTypes() {
         return assetTypes.keySet();
+    }
+
+    /**
+     * Used so we don't try to load an asset type twice
+     */
+    public void finishType(Class<? extends Asset> type){
+        resolvedTypes.add(type);
+    }
+
+    /**
+     *  @return returns true if this type has been resolved
+     */
+    public boolean isResolved(Class<? extends Asset> type){
+        return resolvedTypes.contains(type);
     }
 
     /**

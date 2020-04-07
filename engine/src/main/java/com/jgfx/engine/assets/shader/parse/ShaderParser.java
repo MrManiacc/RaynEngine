@@ -215,7 +215,6 @@ public class ShaderParser {
                         break;
                     default:
                         var custom = new ResourceUrn(_import, anImport.getDefinition());
-//                        System.out.println(custom);
                         if (!globalCustoms.containsKey(custom))
                             present.set(false);
                         break;

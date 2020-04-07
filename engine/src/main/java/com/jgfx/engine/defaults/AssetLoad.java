@@ -4,6 +4,7 @@ import com.google.common.collect.Queues;
 import com.jgfx.assets.context.CoreContext;
 import com.jgfx.assets.files.AssetSourceResolver;
 import com.jgfx.assets.type.AssetManager;
+import com.jgfx.assets.type.AssetType;
 import com.jgfx.assets.type.AssetTypeManager;
 import com.jgfx.engine.assets.config.Config;
 import com.jgfx.engine.assets.config.ConfigFormat;

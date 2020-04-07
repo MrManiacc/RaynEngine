@@ -39,8 +39,6 @@ public class GlfwWindowSubsystem implements EngineSubsystem {
 
     /**
      * Check to see if we need to request a shutdown
-     *
-     * @param currentState The current state
      */
     @Override
     public void preUpdate() {
@@ -55,7 +53,6 @@ public class GlfwWindowSubsystem implements EngineSubsystem {
     /**
      * We want to update the window here
      *
-     * @param currentState The current state
      */
     @Override
     public void postUpdate() {

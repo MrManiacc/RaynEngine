@@ -1,6 +1,8 @@
 package com.jgfx.tiles;
 
 import com.jgfx.assets.data.AssetData;
+import com.jgfx.image.STBImage;
+import lombok.Getter;
 
 import java.awt.image.BufferedImage;
 
@@ -8,13 +10,11 @@ import java.awt.image.BufferedImage;
  * Stores the data about a given tile.
  */
 public class TileData implements AssetData {
-    private BufferedImage[] images;
+    @Getter
+    private STBImage image;
 
-    public TileData(BufferedImage[] images) {
-        this.images = images;
+    public TileData(STBImage image) {
+        this.image = image;
     }
 
-    public BufferedImage[] getImages() {
-        return images;
-    }
 }

@@ -44,7 +44,7 @@ public class ChunkSynthesizer extends EntitySystem {
     @Override
     public void initialize() {
         this.chunks = CHUNK.group();
-        generateChunks(new Vector3i(0, 0, 0), 10);
+        generateChunks(new Vector3i(0, 0, 0), 2);
     }
 
     /**

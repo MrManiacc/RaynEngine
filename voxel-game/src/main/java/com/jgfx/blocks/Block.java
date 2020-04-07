@@ -6,7 +6,9 @@ import com.jgfx.assets.type.AssetType;
 import com.jgfx.assets.urn.ResourceUrn;
 import com.jgfx.blocks.data.BlockData;
 import com.jgfx.blocks.data.BlockElement;
+import com.jgfx.engine.assets.Assets;
 import com.jgfx.engine.assets.model.Vao;
+import com.jgfx.tiles.Tile;
 import com.jgfx.tiles.atlas.Atlas;
 import com.jgfx.utils.MeshData;
 import com.jgfx.utils.Side;
@@ -56,12 +58,11 @@ public class Block extends Asset<BlockData> {
         for (var element : elements)
             for (var side : sides) {
                 if (element.hasSide(side)) {
-                    var tileData = atlas.getTileData(element.getTile(side));
+                    var tileData = Assets.get(element.getTile(side), Tile.class).get().getCoords();
                     var uv = element.getUv(side);
                     var vertices = element.getVertices(side);
                     var normal = element.getNormal(side);
                     for (int i = 0; i < 4; i++) {
-                        meshData.addVertex(vertices[i * 3] + x, vertices[i * 3 + 1] + y, vertices[i * 3 + 2] + z);
                         if (i == 0)//top left
                             meshData.addUv(tileData.x, tileData.y);
                         if (i == 1)//top right
@@ -70,6 +71,7 @@ public class Block extends Asset<BlockData> {
                             meshData.addUv(tileData.x, tileData.w);
                         if (i == 3)//bottom right
                             meshData.addUv(tileData.z, tileData.w);
+                        meshData.addVertex(vertices[i * 3] + x, vertices[i * 3 + 1] + y, vertices[i * 3 + 2] + z);
                         meshData.addNormal(normal.x, normal.y, normal.z);
                     }
                     int length = meshData.getVertexCount();

@@ -2,6 +2,7 @@ package com.jgfx;
 
 import com.jgfx.assets.naming.Name;
 import com.jgfx.assets.naming.Version;
+import com.jgfx.utils.ThreadedAssetGenerator;
 import com.jgfx.utils.VoxelAssetLoader;
 import com.jgfx.engine.ecs.EngineSubsystem;
 import com.jgfx.engine.ecs.entity.system.EntitySystem;
@@ -30,12 +31,13 @@ public class VoxelGame extends GameEngine {
     protected void preInitialization() {
         addSubsystem(new GlfwWindowSubsystem());
         addSubsystem(new GlfwInputSubsystem());
+        addSubsystem(new ThreadedAssetGenerator());
         addLoadProcess(new VoxelAssetLoader());
         addLoadProcess(new PlayerLoader());
     }
 
+
     public static void main(String[] args) throws GameRunException {
-        System.setProperty("java.awt.headless", "true");
         GameRunner.run(VoxelGame.class);
     }
 }

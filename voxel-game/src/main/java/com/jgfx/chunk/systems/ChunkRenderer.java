@@ -25,16 +25,21 @@ import com.jgfx.player.data.PlayerCamera;
 import com.jgfx.utils.State;
 import org.joml.Matrix4f;
 
+import java.util.Optional;
+
 /**
  * This class will render the renderable chunks
  */
 @AutoRegister
 public class ChunkRenderer extends EntitySystem {
-    @Resource("engine:shaders#block") private Shader shader;
-    @Single("engine:entities#local-player") private EntityRef localPlayer;
-
-    @In private ShapeUtils shapeUtils;
-    @In private GLUtils glUtils;
+    @Resource("engine:shaders#block")
+    private Shader shader;
+    @Single("engine:entities#local-player")
+    private EntityRef localPlayer;
+    @In
+    private ShapeUtils shapeUtils;
+    @In
+    private GLUtils glUtils;
 
     private Texture terrain;
     private Group chunks;
@@ -44,8 +49,8 @@ public class ChunkRenderer extends EntitySystem {
      */
     @Override
     public void initialize() {
-        this.terrain = Assets.get("engine:terrain#0", Texture.class).get();
         this.chunks = Groups.CHUNK.group();
+        this.terrain = Assets.get("engine:terrain#0", Texture.class).get();
     }
 
 
@@ -54,6 +59,7 @@ public class ChunkRenderer extends EntitySystem {
      */
     @Override
     protected void process(EngineTime time) {
+
         shader.start();
         shader.loadMat4("projectionMatrix", localPlayer.getComponent(PlayerCamera.class).projectionMatrix);
         shader.loadMat4("viewMatrix", localPlayer.getComponent(PlayerCamera.class).viewMatrix);
