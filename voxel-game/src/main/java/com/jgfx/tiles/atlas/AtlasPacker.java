@@ -14,6 +14,8 @@ import java.io.File;
 import java.text.DecimalFormat;
 import java.util.List;
 
+import static com.google.common.primitives.Bytes.concat;
+import static com.google.common.primitives.Bytes.reverse;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL13.GL_CLAMP_TO_BORDER;
 
@@ -25,7 +27,7 @@ public final class AtlasPacker {
     private STBRPRect.Buffer rects;
     private List<Tile> tiles;
     private STBImage atlas;
-    private static final int MAX_SIZE = 4096;
+    private static final int MAX_SIZE = 4096 * 2;
     private static final int MIN_SIZE = 32;
     private static final int MAX_IMAGES = 20000;
 
@@ -96,7 +98,14 @@ public final class AtlasPacker {
      */
     private void blit(STBImage input, int x, int y) {
         var dst = atlas.getBuffer();
+        var alpha = input.isAlpha();
         var src = input.getBuffer();
+        var srcPixels = new byte[src.capacity()];
+        src.get(srcPixels);
+//        if (alpha)
+        if (input.getWidth() == input.getHeight())
+            srcPixels = rotate(srcPixels, input.getWidth(), input.getHeight());
+
         var pow = 4;
         x *= pow;
         y *= pow;
@@ -108,16 +117,37 @@ public final class AtlasPacker {
                 if (dx < 0 || (dx > atlas.getWidth() * pow)) continue;
                 var srcIndex = (i * input.getWidth() + j);
                 var dstIndex = dx + dy * atlas.getWidth();
-                if (dstIndex + 3 >= dst.capacity() || srcIndex + 3 >= src.capacity())
+                if (dstIndex + 3 >= dst.capacity() || srcIndex + 3 >= srcPixels.length)
                     continue;
                 if (dst.get(dstIndex) == 0) {
-                    dst.put((dstIndex), src.get(srcIndex));
-                    dst.put((dstIndex + 1), src.get(srcIndex + 1));
-                    dst.put((dstIndex + 2), src.get(srcIndex + 2));
-                    dst.put((dstIndex + 3), src.get(srcIndex + 3));
+                    dst.put((dstIndex), srcPixels[srcIndex]);
+                    dst.put((dstIndex + 1), srcPixels[srcIndex + 1]);
+                    dst.put((dstIndex + 2), srcPixels[srcIndex + 2]);
+                    dst.put((dstIndex + 3), srcPixels[srcIndex + 3]);
                 }
             }
         }
+    }
+
+    /**
+     * @return returns the image as a rotated byte array. This will rotate the blocks so they're orientated correctly
+     */
+    private byte[] rotate(byte[] data, int width, int height) {
+        int srcPos = 0; // We can just increment this since the data pack order matches our loop traversal: left to right, top to bottom. (Just like reading a book.)
+        var destPixels = new byte[data.length];
+        for (int srcY = 0; srcY < height; srcY++) {
+            for (int srcX = 0; srcX < width; srcX++) {
+                int destX = ((height - 1) - srcY);
+                int destPos = (((srcX * width) + destX) * 4);
+                if (destPos >= destPixels.length)
+                    continue;
+                destPixels[destPos++] = data[srcPos++];    // alpha
+                destPixels[destPos++] = data[srcPos++];        // blue
+                destPixels[destPos++] = data[srcPos++];        // green
+                destPixels[destPos++] = data[srcPos++];        // red
+            }
+        }
+        return destPixels;
     }
 
     /**

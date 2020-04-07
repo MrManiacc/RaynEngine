@@ -3,3 +3,5 @@ include ':engine'
 include ':asset-lib'
 include ':pong-game'
 include ':voxel-game'
+include ':jgfx-gui'
+

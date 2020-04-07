@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "displayName": "Skull Painting",
+  "textures": {
+    "#skull": "engine:paintings#aztec",
+    "#skull2": "engine:paintings#abstract",
+    "#stone": "engine:tiles#stone"
+  },
+  "elements": [
+    {
+      "__comment": "Core Block",
+      "from": [-32,0,0],
+      "to": [64,64,1],
+      "faces": {
+        "down": {"uv": [0,0,32,32],"texture": "#stone"},
+        "up": {"uv": [0,0,32,32],"texture": "#stone"},
+        "north": {"uv": [5,5,27,27],"texture": "#skull2"},
+        "south": {"uv": [0,0,32,32],"texture": "#skull"},
+        "west": {"uv": [0,0,32,32],"texture": "#stone"},
+        "east": {"uv": [0,0,32,32],"texture": "#stone"}
+      }
+    }
+  ]
+}

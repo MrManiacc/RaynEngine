@@ -12,7 +12,6 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 import java.nio.file.Paths;
 import java.util.*;
 
@@ -77,28 +76,29 @@ public class AssetSourceResolver {
      */
     private List<AssetMetaData> getMetaData(Class<? extends Asset> assetClass) {
         var metaList = new ArrayList<AssetMetaData>();
-        Optional<String> assetFolder = typeManager.getAssetFolder(assetClass);
+        Optional<List<String>> assetFolder = typeManager.getAssetFolders(assetClass);
         Optional<AssetType<? extends Asset, ? extends AssetData>> assetType = typeManager.getAssetType(assetClass);
         Optional<AbstractAssetFileFormat<? extends AssetData>> assetFormat = typeManager.getFormat(assetClass);
         if (assetType.isPresent() && assetFormat.isPresent() && assetFolder.isPresent()) {
             var type = assetType.get();
             var format = assetFormat.get();
-            var folder = assetFolder.get();
-            var path = Paths.get(ASSETS_FOLDER, folder);
+            var folders = assetFolder.get();
             ClassLoader loader = Thread.currentThread().getContextClassLoader();
             var url = loader.getResource("assets");
-            var assetsFolder = new File(Objects.requireNonNull(url).getPath());
-            if (!assetsFolder.exists()) return null;
-            var files = new File(assetsFolder, folder).listFiles();
-            if (files != null && files.length > 0)
-                for (var file : Objects.requireNonNull(files)) {
-                    var filePath = Paths.get(file.toURI());
-                    if (format.getFileMatcher().matches(filePath)) {
-                        var urn = new ResourceUrn("engine", folder, format.getAssetName(file.getName()).toLowerCase());
-                        var assetDataFiles = Collections.singletonList(new AssetDataFile(filePath));
-                        metaList.add(new AssetMetaData(assetDataFiles, format, type, urn));
+            for (var folder : folders) {
+                var assetsFolder = new File(Objects.requireNonNull(url).getPath());
+                if (!assetsFolder.exists()) return null;
+                var files = new File(assetsFolder, folder).listFiles();
+                if (files != null && files.length > 0)
+                    for (var file : Objects.requireNonNull(files)) {
+                        var filePath = Paths.get(file.toURI());
+                        if (format.getFileMatcher().matches(filePath)) {
+                            var urn = new ResourceUrn("engine", folder, format.getAssetName(file.getName()).toLowerCase());
+                            var assetDataFiles = Collections.singletonList(new AssetDataFile(filePath));
+                            metaList.add(new AssetMetaData(assetDataFiles, format, type, urn));
+                        }
                     }
-                }
+            }
             return metaList;
         }
         return null;

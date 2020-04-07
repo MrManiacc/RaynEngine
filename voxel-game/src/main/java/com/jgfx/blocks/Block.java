@@ -58,8 +58,10 @@ public class Block extends Asset<BlockData> {
         for (var element : elements)
             for (var side : sides) {
                 if (element.hasSide(side)) {
-                    var tileData = Assets.get(element.getTile(side), Tile.class).get().getCoords();
+                    var tile = Assets.get(element.getTile(side), Tile.class).get();
+                    var tileData = tile.getCoords();
                     var uv = element.getUv(side);
+                    System.out.println(uv.toString(DecimalFormat.getInstance()));
                     var vertices = element.getVertices(side);
                     var normal = element.getNormal(side);
                     for (int i = 0; i < 4; i++) {
@@ -71,8 +73,8 @@ public class Block extends Asset<BlockData> {
                             meshData.addUv(tileData.x, tileData.w);
                         if (i == 3)//bottom right
                             meshData.addUv(tileData.z, tileData.w);
-                        meshData.addVertex(vertices[i * 3] + x, vertices[i * 3 + 1] + y, vertices[i * 3 + 2] + z);
                         meshData.addNormal(normal.x, normal.y, normal.z);
+                        meshData.addVertex(vertices[i * 3] + x, vertices[i * 3 + 1] + y, vertices[i * 3 + 2] + z);
                     }
                     int length = meshData.getVertexCount();
                     meshData.addIndices(length - 4);

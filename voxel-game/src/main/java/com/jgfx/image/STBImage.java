@@ -4,6 +4,7 @@ import com.jgfx.engine.utils.IOUtil;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.SneakyThrows;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.system.MemoryStack;
@@ -26,13 +27,18 @@ public class STBImage {
     @Setter
     private int width, height, comp;
     private Logger logger = LogManager.getLogger();
+    @Getter
+    private boolean alpha;
 
     /**
      * Load image from file
      */
     public STBImage(File file) {
         loadImage(file);
+        //If png we have alpha if jpeg we dont
+        this.alpha = FilenameUtils.isExtension(file.getName(), "png");
     }
+
 
     /**
      * Used for the atlas
@@ -53,7 +59,7 @@ public class STBImage {
             var comp = stack.mallocInt(1);
 
             /* Load image */
-            stbi_set_flip_vertically_on_load(false);
+            stbi_set_flip_vertically_on_load(true);
             this.buffer = stbi_load(file.getPath(), w, h, comp, 4);
             if (buffer == null) {
                 throw new RuntimeException("Failed to load a texture file!"

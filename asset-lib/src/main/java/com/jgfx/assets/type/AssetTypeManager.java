@@ -15,26 +15,30 @@ import java.util.*;
  */
 public class AssetTypeManager {
     private final Map<Class<? extends Asset>, AssetType<?, ?>> assetTypes = Maps.newHashMap();
-    private final Map<Class<? extends Asset>, String> assetFolders = Maps.newHashMap();
+    private final Map<Class<? extends Asset>, List<String>> assetFolders = Maps.newHashMap();
     private final Map<Class<? extends Asset>, AbstractAssetFileFormat<? extends AssetData>> assetFormat = Maps.newHashMap();
     private final Set<Class<? extends Asset>> resolvedTypes = Sets.newConcurrentHashSet();
+
     /**
      * Registers an asset type. It will be available after the next time
      * read from modules from the provided subfolders. If there are no subfolders then assets will not be loaded from modules.
      *
-     * @param type      The type of to register as a core type
-     * @param factory   The factory to create assets of the desired type from asset data
-     * @param subfolder The name of the subfolders which asset files related to this type will be read from within modules
-     * @param <T>       The type of asset
-     * @param <U>       The type of asset data
+     * @param type       The type of to register as a core type
+     * @param factory    The factory to create assets of the desired type from asset data
+     * @param subfolders The name of the subfolders which asset files related to this type will be read from within modules
+     * @param <T>        The type of asset
+     * @param <U>        The type of asset data
      */
-    public synchronized <T extends Asset<U>, U extends AssetData> void registerAssetType(Class<T> type, AssetFactory<T, U> factory, AbstractAssetFileFormat<U> format, String subfolder) {
-        if(!resolvedTypes.contains(type)) {
+    public synchronized <T extends Asset<U>, U extends AssetData> void registerAssetType(Class<T> type, AssetFactory<T, U> factory, AbstractAssetFileFormat<U> format, String... subfolders) {
+        if (!resolvedTypes.contains(type)) {
             Preconditions.checkState(!assetTypes.containsKey(type), "Asset type '" + type.getSimpleName() + "' already registered");
             assetFormat.put(type, format);
             AssetType<T, U> assetType = new AssetType<>(type, factory);
             this.assetTypes.put(type, assetType);
-            this.assetFolders.put(type, subfolder);
+            if (!this.assetFolders.containsKey(type))
+                this.assetFolders.put(type, new ArrayList<>());
+            for (var folder : subfolders)
+                this.assetFolders.get(type).add(folder);
             this.resolvedTypes.add(type);
         }
     }
@@ -59,7 +63,7 @@ public class AssetTypeManager {
      * @param <U>  the type of asset data
      * @return returns the asset folder
      */
-    public <T extends Asset<U>, U extends AssetData> Optional<String> getAssetFolder(Class<T> type) {
+    public <T extends Asset<U>, U extends AssetData> Optional<List<String>> getAssetFolders(Class<T> type) {
         return Optional.ofNullable(assetFolders.get(type));
     }
 
@@ -75,14 +79,14 @@ public class AssetTypeManager {
     /**
      * Used so we don't try to load an asset type twice
      */
-    public void finishType(Class<? extends Asset> type){
+    public void finishType(Class<? extends Asset> type) {
         resolvedTypes.add(type);
     }
 
     /**
-     *  @return returns true if this type has been resolved
+     * @return returns true if this type has been resolved
      */
-    public boolean isResolved(Class<? extends Asset> type){
+    public boolean isResolved(Class<? extends Asset> type) {
         return resolvedTypes.contains(type);
     }
 

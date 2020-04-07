@@ -4,6 +4,8 @@ import com.jgfx.assets.files.AbstractAssetFileFormat;
 import com.jgfx.assets.files.AssetDataFile;
 import com.jgfx.assets.urn.ResourceUrn;
 import com.jgfx.engine.assets.shader.parse.ShaderParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,6 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShaderFormat extends AbstractAssetFileFormat<ShaderData> {
+    private Logger logger = LogManager.getLogger();
+
     public ShaderFormat() {
         super("glsl");
     }
@@ -26,6 +30,7 @@ public class ShaderFormat extends AbstractAssetFileFormat<ShaderData> {
     public ShaderData load(ResourceUrn urn, List<AssetDataFile> inputs) throws IOException {
         var input = inputs.get(0);
         var stream = input.openStream();
+        logger.debug("Loading shader {} from file", urn.toString());
         var lines = Files.readAllLines(input.getPath());
         stream.close();
         var data = buildShader(lines, urn);

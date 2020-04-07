@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class TileFormat extends AbstractAssetFileFormat<TileData> {
     public TileFormat() {
-        super("png");
+        super("png", "jpeg", "jpg");
     }
 
     /**

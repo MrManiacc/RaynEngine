@@ -7,6 +7,8 @@ import com.jgfx.assets.urn.ResourceUrn;
 import com.jgfx.engine.assets.shader.parse.Bind;
 import com.jgfx.engine.assets.shader.parse.Uniform;
 import lombok.Getter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.joml.*;
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL11;
@@ -23,6 +25,7 @@ public class Shader extends Asset<ShaderData> {
     @Getter
     private final Map<String, Integer> uniforms = Maps.newHashMap();
     private final FloatBuffer matrixBuffer;
+    private Logger logger = LogManager.getLogger();
 
     /**
      * The constructor for an asset. It is suggested that implementing classes provide a constructor taking both the urn, and an initial AssetData to load.
@@ -78,6 +81,7 @@ public class Shader extends Asset<ShaderData> {
         GL20.glLinkProgram(programID);
         GL20.glValidateProgram(programID);
         data.getUniformMap().forEach(parseUniforms);
+        logger.info("Shader {} loaded successfully", this.getUrn().toString());
     }
 
     /**

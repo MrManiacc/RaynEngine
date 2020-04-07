@@ -60,13 +60,13 @@ public class ChunkGenerator extends EntitySystem {
      * This will generate a chunk if the state is unloaded
      */
     private void generateChunk(ChunkBlocks blocks, ChunkState state) {
-        var stair = "engine:blocks#stone_stair";
+        var stair = "engine:blocks#skull_painting";
         var grass = "engine:blocks#grass";
         var random = new Random();
         for (var x = 0; x < ChunkHelper.CHUNK_BLOCK_SIZE; x++) {
             for (var z = 0; z < ChunkHelper.CHUNK_BLOCK_SIZE; z++) {
                 if (x % 6 == 0 && z % 6 == 0 && Math.random() > 0.95f)
-                    blocks.setBlock(x, 1, z, stair);
+                    blocks.setBlock(x, 3, z, stair);
                 blocks.setBlock(x, 0, z, grass);
             }
         }

@@ -2,7 +2,12 @@
   "id": 1,
   "displayName": "BaseBlock",
   "textures": {
-    "#all": "engine:tiles#bedrock"
+    "#top": "engine:tiles#bedrock",
+    "#bottom": "engine:tiles#bedrock",
+    "#east": "engine:tiles#bedrock",
+    "#west": "engine:tiles#bedrock",
+    "#north": "engine:tiles#bedrock",
+    "#south": "engine:tiles#bedrock"
   },
   "elements": [
     {
@@ -10,12 +15,12 @@
       "from": [0,0,0],
       "to": [32,32,32],
       "faces": {
-        "down": {"uv": [0,0,32,32],"texture": "#all"},
-        "up": {"uv": [0,0,32,32],"texture": "#all"},
-        "north": {"uv": [0,0,32,32],"texture": "#all"},
-        "south": {"uv": [0,0,32,32],"texture": "#all"},
-        "west": {"uv": [0,0,32,32],"texture": "#all"},
-        "east": {"uv": [0,0,32,32],"texture": "#all"}
+        "down": {"uv": [0,0,32,32],"texture": "#bottom"},
+        "up": {"uv": [0,0,32,32],"texture": "#top"},
+        "north": {"uv": [0,0,32,32],"texture": "#north"},
+        "south": {"uv": [0,0,32,32],"texture": "#south"},
+        "west": {"uv": [0,0,32,32],"texture": "#west"},
+        "east": {"uv": [0,0,32,32],"texture": "#east"}
       }
     }
   ]

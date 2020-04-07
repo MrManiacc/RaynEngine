@@ -1,6 +1,7 @@
 package com.jgfx.chunk.systems;
 
 
+import com.jgfx.assets.context.CoreContext;
 import com.jgfx.assets.type.AssetManager;
 import com.jgfx.chunk.data.ChunkMesh;
 import com.jgfx.chunk.data.ChunkOrigin;
@@ -32,7 +33,7 @@ import java.util.Optional;
  */
 @AutoRegister
 public class ChunkRenderer extends EntitySystem {
-    @Resource("engine:shaders#block")
+    @Resource("engine:shaders#chunk")
     private Shader shader;
     @Single("engine:entities#local-player")
     private EntityRef localPlayer;
@@ -59,7 +60,6 @@ public class ChunkRenderer extends EntitySystem {
      */
     @Override
     protected void process(EngineTime time) {
-
         shader.start();
         shader.loadMat4("projectionMatrix", localPlayer.getComponent(PlayerCamera.class).projectionMatrix);
         shader.loadMat4("viewMatrix", localPlayer.getComponent(PlayerCamera.class).viewMatrix);

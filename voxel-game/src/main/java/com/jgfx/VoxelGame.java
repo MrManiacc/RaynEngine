@@ -2,6 +2,8 @@ package com.jgfx;
 
 import com.jgfx.assets.naming.Name;
 import com.jgfx.assets.naming.Version;
+//import com.jgfx.gui.JgfxGui;
+import com.jgfx.gui.JgfxGui;
 import com.jgfx.utils.ThreadedAssetGenerator;
 import com.jgfx.utils.VoxelAssetLoader;
 import com.jgfx.engine.ecs.EngineSubsystem;
@@ -31,7 +33,8 @@ public class VoxelGame extends GameEngine {
     protected void preInitialization() {
         addSubsystem(new GlfwWindowSubsystem());
         addSubsystem(new GlfwInputSubsystem());
-        addSubsystem(new ThreadedAssetGenerator());
+//        addSubsystem(new ThreadedAssetGenerator());
+        addSubsystem(new JgfxGui());
         addLoadProcess(new VoxelAssetLoader());
         addLoadProcess(new PlayerLoader());
     }

@@ -25,11 +25,9 @@ public class VoxelAssetLoader extends AssetLoad {
      * @param typeManager the type manager
      */
     protected void registerAssetResolvers(AssetTypeManager typeManager) {
-        typeManager.registerAssetType(Tile.class, Tile::new, new TileFormat(), "tiles");
-        typeManager.registerAssetType(Texture.class, Texture::new, new TextureFormat(), "textures");
-        typeManager.registerAssetType(Config.class, Config::new, new ConfigFormat(), "config");
+        super.registerAssetResolvers(typeManager);
+        typeManager.registerAssetType(Tile.class, Tile::new, new TileFormat(), "tiles", "paintings");
         typeManager.registerAssetType(Block.class, Block::new, new BlockFormat(), "blocks");
-        typeManager.registerAssetType(Shader.class, Shader::new, new ShaderFormat(), "shaders");
     }
 
     /**

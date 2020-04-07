@@ -1,8 +1,12 @@
 package com.jgfx.utils;
 
 import com.google.common.collect.Lists;
+import com.jgfx.engine.utils.JMath;
+import org.joml.Quaternionf;
+import org.joml.Vector2f;
 
 import java.util.List;
+
 /**
  * A helper class that contains mesh data
  */
@@ -11,6 +15,7 @@ public class MeshData {
     private final List<Float> uvs = Lists.newArrayList();
     private final List<Integer> indices = Lists.newArrayList();
     private final List<Float> normals = Lists.newArrayList();
+    private final Vector2f uvBuffer = new Vector2f();
 
     /**
      * Adds a vertices to the list of vertices

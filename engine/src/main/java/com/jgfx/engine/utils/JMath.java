@@ -1,6 +1,7 @@
 package com.jgfx.engine.utils;
 
 import com.google.common.annotations.Beta;
+import org.joml.Vector2f;
 
 
 /**
@@ -62,5 +63,18 @@ public final class JMath {
             power++;
         }
         return power;
+    }
+
+    /**
+     * @return returns a rotated vector2f
+     */
+    public static Vector2f rotateVec2(Vector2f v, float degrees) {
+        float sin = (float) Math.sin(Math.toRadians(degrees));
+        float cos = (float) Math.cos(Math.toRadians(degrees));
+        float tx = v.x;
+        float ty = v.y;
+        v.x = (cos * tx) - (sin * ty);
+        v.y = (sin * tx) + (cos * ty);
+        return v;
     }
 }

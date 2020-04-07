@@ -37,8 +37,7 @@ public class AssetLoad extends SingleStepLoadProcess {
     private void initialize() {
         typeManager = new AssetTypeManager();
         registerAssetResolvers(typeManager);
-        var assetManager = new AssetManager(typeManager);
-        CoreContext.put(assetManager);
+        CoreContext.put(new AssetManager(typeManager));
         resolveAssets();
     }
 

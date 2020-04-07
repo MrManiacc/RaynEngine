@@ -78,10 +78,10 @@ public class Atlas {
         var maybeTile = Assets.get(urn, Tile.class);
         if (maybeTile.isPresent()) {
             var tile = maybeTile.get();
-            if (isValidTile(tile)) {
+//            if (isValidTile(tile)) {
                 tiles.add(tile);
-            } else
-                logger.error("Invalid tile {}, must be square with power of two sides.", urn.toString());
+//            } else
+//                logger.error("Invalid tile {}, must be square with power of two sides.", urn.toString());
         }
     }
 

@@ -89,14 +89,14 @@ public class SimplePlayerMove extends EntitySystem {
             transform.z -= (right.z * delta * info.strafeSpeed * multiplier);
         }
         if (input.keyDown(info.upKey)) {
-            transform.x += (up.x * delta * info.movementSpeed * multiplier);
-            transform.y += (up.y * delta * info.movementSpeed * multiplier);
-            transform.z += (up.z * delta * info.movementSpeed * multiplier);
+//            transform.x += (up.x * delta * info.movementSpeed * multiplier);
+            transform.y += (delta * info.movementSpeed * multiplier);
+//            transform.z += (up.z * delta * info.movementSpeed * multiplier);
         }
         if (input.keyDown(info.downKey)) {
-            transform.x -= (up.x * delta * info.movementSpeed * multiplier);
-            transform.y -= (up.y * delta * info.movementSpeed * multiplier);
-            transform.z -= (up.z * delta * info.movementSpeed * multiplier);
+//            transform.x -= (up.x * delta * info.movementSpeed * multiplier);
+            transform.y -= (delta * info.movementSpeed * multiplier);
+//            transform.z -= (up.z * delta * info.movementSpeed * multiplier);
         }
 
     }
