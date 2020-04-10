@@ -2,29 +2,24 @@ package com.jgfx.chunk.systems;
 
 import com.jgfx.chunk.data.*;
 import com.jgfx.chunk.events.ChunkGeneratedEvent;
-import com.jgfx.chunk.utils.ChunkHelper;
-import com.jgfx.chunk.utils.Groups;
 
 import static com.jgfx.chunk.utils.Groups.*;
 
-import com.jgfx.engine.ecs.World;
+import com.jgfx.debug.shapes.LineShape;
+import com.jgfx.debug.shapes.MultiShape;
 import com.jgfx.engine.ecs.entity.ref.EntityRef;
 import com.jgfx.engine.ecs.entity.system.EntitySystem;
 import com.jgfx.engine.ecs.group.Group;
-import com.jgfx.engine.ecs.group.GroupBuilder;
 import com.jgfx.engine.event.Bus;
 import com.jgfx.engine.game.AutoRegister;
-import com.jgfx.engine.injection.anotations.All;
 import com.jgfx.engine.injection.anotations.EventSubscriber;
 import com.jgfx.engine.injection.anotations.In;
 import com.jgfx.engine.injection.anotations.Single;
 import com.jgfx.engine.input.Input;
 import com.jgfx.engine.time.EngineTime;
 import com.jgfx.player.data.PlayerTransform;
-import com.jgfx.utils.GroupsBuilder;
-import org.joml.Vector3i;
-
-import static com.jgfx.chunk.utils.ChunkHelper.*;
+import org.joml.Vector3f;
+import org.joml.Vector4f;
 
 /**
  * This class will generate chunks around the player
@@ -44,7 +39,19 @@ public class ChunkSynthesizer extends EntitySystem {
     @Override
     public void initialize() {
         this.chunks = CHUNK.group();
-        generateChunks(new Vector3i(0, 0, 0), 2);
+        generateChunk(0, 0, 0);
+        generateChunk(32, 0, 0);
+        generateChunk(-32, 0, 0);
+        generateChunk(0, 0, 32);
+        generateChunk(0, 0, -32);
+
+
+        //        generateChunk(0, 32, 0);
+//        generateChunk(32, 32, 0);
+//        generateChunk(-32, 0, 0, new CubeShape(new Vector4f(1)));
+//        generateChunk(0, 0, 32, new CubeShape(new Vector4f(1)));
+//        generateChunk(0, 0, -32, new OutlineShape(new Vector2f(0), new Vector2f(1)));
+//        generateChunk(0, -32, 0, new OutlineShape(new Vector2f(0), new Vector2f(1)));
     }
 
     /**
@@ -52,31 +59,9 @@ public class ChunkSynthesizer extends EntitySystem {
      */
     @Override
     protected void process(EngineTime time) {
-        var position = localPlayer.getComponent(PlayerTransform.class);
+        var position = localPlayer.get(PlayerTransform.class);
         if (input.keyPressed(Input.KEY_G)) {
-//            var entity = generateChunk((int) position.x, (int) position.y, (int) position.z);
-        }
-    }
-
-    /**
-     * Generates chunks starting for the center, spreading out in each direction by the total
-     */
-    private void generateChunks(Vector3i position, int total) {
-        var startX = position.x - ((total * CHUNK_BLOCK_SIZE) / 2);
-        var stopX = position.x + ((total * CHUNK_BLOCK_SIZE) / 2);
-
-        var startY = position.y - ((total * CHUNK_BLOCK_SIZE) / 2);
-        var stopY = position.y + ((total * CHUNK_BLOCK_SIZE) / 2);
-
-        var startZ = position.z - ((total * CHUNK_BLOCK_SIZE) / 2);
-        var stopZ = position.z + ((total * CHUNK_BLOCK_SIZE) / 2);
-
-        for (int x = startX; x < stopX; x += CHUNK_BLOCK_SIZE) {
-            for (int y = startY; y < stopY; y += CHUNK_BLOCK_SIZE) {
-                for (int z = startZ; z < stopZ; z += CHUNK_BLOCK_SIZE) {
-                    generateChunk(x, y, z);
-                }
-            }
+//            var entity = generateChunk((int) position.x, (int) position.y, (int) position.z, new LineShape(32, 0.025f));
         }
     }
 
@@ -85,11 +70,17 @@ public class ChunkSynthesizer extends EntitySystem {
      */
     private EntityRef generateChunk(int x, int y, int z) {
         var entity = world.createEntity();
-        entity.addComponent(new ChunkOrigin(x, y, z));
-        entity.addComponent(new ChunkBlocks());
-        entity.addComponent(new ChunkMesh());
-        entity.addComponent(new ChunkNeighbors(entity));
-        entity.addComponent(new ChunkState());
+        entity.add(new ChunkOrigin(x, y, z));
+        entity.add(new ChunkBlocks());
+        entity.add(new ChunkMesh());
+        entity.add(new ChunkNeighbors(entity));
+        entity.add(new ChunkState());
+        entity.add(new MultiShape(new Vector3f(x, y, z), new Vector4f(1, 1, 1, 1),
+                new LineShape(new Vector3f(-0.5f, 15.5f, -0.5f), new Vector3f(0, 0, 0), 32, 0.25f),
+                new LineShape(new Vector3f(31.5f, 15.5f, -0.5f), new Vector3f(0, 0, 0), 32, 0.25f),
+                new LineShape(new Vector3f(31.5f, 15.5f, 31.5f), new Vector3f(0, 0, 0), 32, 0.25f),
+                new LineShape(new Vector3f(-0.5f, 15.5f, 31.5f), new Vector3f(0, 0, 0), 32, 0.25f)
+        ));
         Bus.LOGIC.post(new ChunkGeneratedEvent(entity));
         return entity;
     }

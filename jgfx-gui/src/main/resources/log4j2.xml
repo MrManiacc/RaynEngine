@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="runid">$${date:MMMM/dd/hh_mm-a}</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--            <PatternLayout pattern="%d{MMMM, dd - hh:mm-a} [%t] %-5level %logger{36} - %msg%n"/>-->
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %highlight{%level}{FATAL=bg_red, ERROR=red, WARN=yellow, INFO=green,
+                    DEBUG=blue} - %msg%n
+                </Pattern>
+            </PatternLayout>
+        </Console>
+        <File name="roll-by-time" fileName="./logs/${runid}.log" ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>[%d{MMMM dd, YYYY - hh:mm:ss:a}] %p %c{1}:%L - %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="roll-by-time"/>
+        </Root>
+
+    </Loggers>
+</Configuration>

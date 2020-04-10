@@ -42,7 +42,7 @@ public class ChunkManager extends EntitySystem {
      */
     @Subscribe
     public void onChunkCreated(ChunkGeneratedEvent event) {
-        var origin = event.chunk.getComponent(ChunkOrigin.class);
+        var origin = event.chunk.get(ChunkOrigin.class);
         if (entityMap.containsKey(origin.index)) {
             event.chunk.dispose();
             logger.warn("Chunk[{}] at {}, {}, {} was generated twice. Destroying", origin.index, origin.x, origin.y, origin.z);
@@ -57,7 +57,7 @@ public class ChunkManager extends EntitySystem {
      */
     @Subscribe
     public void onChunkDestroyed(ChunkDestroyedEvent event) {
-        var origin = event.chunk.getComponent(ChunkOrigin.class);
+        var origin = event.chunk.get(ChunkOrigin.class);
         if (entityMap.containsKey(origin.index)) {
             entityMap.remove(origin.index);
             logger.debug("Chunk[{}] at {}, {}, {} removed from chunk manager", origin.index, origin.x, origin.y, origin.z);
@@ -83,7 +83,7 @@ public class ChunkManager extends EntitySystem {
         var chunk = getChunk(x, y, z);
         if (chunk == EntityRef.NULL)
             return Optional.empty();
-        return Optional.of(chunk.getComponent(ChunkBlocks.class));
+        return Optional.of(chunk.get(ChunkBlocks.class));
     }
 
     /**
@@ -93,7 +93,7 @@ public class ChunkManager extends EntitySystem {
         var chunk = getChunk(x, y, z);
         if (chunk == EntityRef.NULL)
             return Optional.empty();
-        return Optional.of(chunk.getComponent(ChunkNeighbors.class));
+        return Optional.of(chunk.get(ChunkNeighbors.class));
     }
 
 
@@ -104,7 +104,7 @@ public class ChunkManager extends EntitySystem {
         var chunk = getChunk(x, y, z);
         if (chunk == EntityRef.NULL)
             return Optional.empty();
-        return Optional.of(chunk.getComponent(ChunkMesh.class));
+        return Optional.of(chunk.get(ChunkMesh.class));
     }
 
     /**
@@ -114,7 +114,7 @@ public class ChunkManager extends EntitySystem {
         var chunk = getChunk(x, y, z);
         if (chunk == EntityRef.NULL)
             return State.UNLOADED;
-        return chunk.getComponent(ChunkState.class).state;
+        return chunk.get(ChunkState.class).state;
     }
 
 }

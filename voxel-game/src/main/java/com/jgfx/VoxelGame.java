@@ -33,7 +33,6 @@ public class VoxelGame extends GameEngine {
     protected void preInitialization() {
         addSubsystem(new GlfwWindowSubsystem());
         addSubsystem(new GlfwInputSubsystem());
-//        addSubsystem(new ThreadedAssetGenerator());
         addSubsystem(new JgfxGui());
         addLoadProcess(new VoxelAssetLoader());
         addLoadProcess(new PlayerLoader());

@@ -3,7 +3,6 @@ package com.jgfx.player.load;
 import com.jgfx.engine.assets.config.Config;
 import com.jgfx.engine.ecs.World;
 import com.jgfx.engine.ecs.component.SingleComponent;
-import com.jgfx.engine.game.AutoRegister;
 import com.jgfx.engine.injection.anotations.In;
 import com.jgfx.engine.injection.anotations.Resource;
 import com.jgfx.engine.load.SingleStepLoadProcess;
@@ -34,6 +33,7 @@ public class PlayerLoader extends SingleStepLoadProcess {
         world.createEntity(
                 playerInfo, playerCamera, playerTransform, new SingleComponent("engine:entities#local-player")
         );
+
         return true;
     }
 
@@ -65,7 +65,7 @@ public class PlayerLoader extends SingleStepLoadProcess {
         var fov = config.getDouble("view", "fov");
         var near = config.getDouble("view", "near");
         var far = config.getDouble("view", "far");
-        return new PlayerCamera((float) Math.toRadians(fov), window.getWidth() / window.getHeight(), (float) near, (float) far);
+        return new PlayerCamera((float) Math.toRadians(fov), window.getFbWidth() / window.getFbHeight(), (float) near, (float) far);
     }
 
     /**

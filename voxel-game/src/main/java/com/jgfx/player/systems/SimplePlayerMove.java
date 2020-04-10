@@ -1,6 +1,5 @@
 package com.jgfx.player.systems;
 
-import com.badlogic.gdx.graphics.Camera;
 import com.jgfx.engine.assets.config.Config;
 import com.jgfx.engine.ecs.entity.ref.EntityRef;
 import com.jgfx.engine.ecs.entity.system.EntitySystem;
@@ -14,7 +13,6 @@ import com.jgfx.engine.window.IWindow;
 import com.jgfx.player.data.PlayerCamera;
 import com.jgfx.player.data.PlayerInfo;
 import com.jgfx.player.data.PlayerTransform;
-import org.joml.Vector3f;
 
 /**
  * This class will move the player based upon the given input
@@ -33,9 +31,9 @@ public class SimplePlayerMove extends EntitySystem {
      */
     @Override
     protected void process(EngineTime time) {
-        var camera = localPlayer.getComponent(PlayerCamera.class);
-        var transform = localPlayer.getComponent(PlayerTransform.class);
-        var info = localPlayer.getComponent(PlayerInfo.class);
+        var camera = localPlayer.get(PlayerCamera.class);
+        var transform = localPlayer.get(PlayerTransform.class);
+        var info = localPlayer.get(PlayerInfo.class);
         processFocused(info);
         if (window.isFocused()) {
             processRotation(info, transform);

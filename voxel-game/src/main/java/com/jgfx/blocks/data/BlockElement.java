@@ -103,6 +103,14 @@ public class BlockElement {
         }
     }
 
+    /**
+     * @return returns true if the input side, is the full side and present
+     */
+    public boolean isFullSide(Side side){
+        if(!hasSide(side)) return false;
+        //We check to see if the element is full or not
+        return from.equals(0,0,0) && to.equals(32,32,32);
+    }
 
     /**
      * @return returns uv for the specified direction or null if not face is present

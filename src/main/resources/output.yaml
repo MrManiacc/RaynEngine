@@ -1,0 +1,41 @@
+---
+root:
+  element: "VStack"
+  components:
+  - type: "Alignment"
+    alignment: "center"
+  elements:
+  - type: "Text"
+    components:
+    - type: "Font"
+      fontName: "system"
+      fontSize: 12.0
+      fontWeight: "regular"
+    - type: "Text"
+      text: "testing"
+  - type: "Text"
+    components:
+    - type: "Alignment"
+      alignment: "leading"
+    - type: "Font"
+      fontName: "system"
+      fontSize: 12.0
+      fontWeight: "regular"
+    - type: "Text"
+      text: "testttsdfj"
+    - type: "TextStyle"
+      bold: true
+      italic: false
+      strikeThrough: false
+      underLine: false
+      kerning: 1.0
+      baseLineOffset: 1.0
+  - type: "Image"
+    components:
+    - type: "BackgroundImage"
+      image: "engine:textures#white"
+    - type: "OverlayColor"
+      red: 241
+      green: 196
+      blue: 15
+      alpha: 50

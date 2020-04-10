@@ -26,7 +26,7 @@ public class STBImage {
     @Getter
     @Setter
     private int width, height, comp;
-    private Logger logger = LogManager.getLogger();
+    private static final Logger logger = LogManager.getLogger();
     @Getter
     private boolean alpha;
 

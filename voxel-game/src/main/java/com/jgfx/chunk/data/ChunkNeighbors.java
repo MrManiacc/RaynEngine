@@ -44,7 +44,7 @@ public class ChunkNeighbors implements Component {
         if (hasNeighbor(chunkDirection))
             return false;
         neighbors.put(chunkDirection, chunk);
-        var neighbors = chunk.getComponent(ChunkNeighbors.class);
+        var neighbors = chunk.get(ChunkNeighbors.class);
         neighbors.addNeighbor(parent); //The inverse, this current chunk to the neighbor chunk as a neighbor
         return true;
     }
@@ -71,7 +71,7 @@ public class ChunkNeighbors implements Component {
     public boolean removeNeighbor(ChunkDirection chunkDirection) {
         if (!neighbors.containsKey(chunkDirection)) return false;
         var removed = neighbors.remove(chunkDirection);
-        var neighbors = removed.getComponent(ChunkNeighbors.class);
+        var neighbors = removed.get(ChunkNeighbors.class);
         neighbors.removeNeighbor(origin());//The inverse, if the chunk isn't being deleted, we need to notify it that this chunk has removed it as a neighbor
         return true;
     }
@@ -80,7 +80,7 @@ public class ChunkNeighbors implements Component {
      * @return returns the parent chunks origin
      */
     private ChunkOrigin origin() {
-        return parent.getComponent(ChunkOrigin.class);
+        return parent.get(ChunkOrigin.class);
     }
 
     /**
@@ -166,7 +166,7 @@ public class ChunkNeighbors implements Component {
      * @return returns the direction or invalid
      */
     public ChunkDirection getDirection(EntityRef other) {
-        return getDirection(other.getComponent(ChunkOrigin.class));
+        return getDirection(other.get(ChunkOrigin.class));
     }
 
 

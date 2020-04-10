@@ -1,0 +1,35 @@
+{
+  "id": 4,
+  "displayName": "Stone Stair block",
+  "textures": {
+    "#all": "engine:tiles#stone",
+    "#all2": "engine:tiles#iron_block"
+  },
+  "elements": [
+    {
+      "__comment": "Dirt core",
+      "from": [0,0,0],
+      "to": [32,16,32],
+      "faces": {
+        "down": {"uv": [0,0,32,32],"texture": "#all"},
+        "up": {"uv": [0,0,32,32],"texture": "#all"},
+        "north": {"uv": [0,0,32,32],"texture": "#all"},
+        "south": {"uv": [0,0,32,32],"texture": "#all"},
+        "west": {"uv": [0,0,32,32],"texture": "#all"},
+        "east": {"uv": [0,0,32,32],"texture": "#all"}
+      }
+    },
+    {
+      "__comment": "Dirt core",
+      "from": [0,16,16],
+      "to": [32,32,32],
+      "faces": {
+        "up": {"uv": [0,0,32,32],"texture": "#all2"},
+        "north": {"uv": [0,0,32,32],"texture": "#all2"},
+        "south": {"uv": [0,0,32,32],"texture": "#all2"},
+        "west": {"uv": [0,0,32,32],"texture": "#all2"},
+        "east": {"uv": [0,0,32,32],"texture": "#all2"}
+      }
+    }
+  ]
+}

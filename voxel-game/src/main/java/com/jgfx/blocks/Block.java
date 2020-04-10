@@ -7,15 +7,14 @@ import com.jgfx.assets.urn.ResourceUrn;
 import com.jgfx.blocks.data.BlockData;
 import com.jgfx.blocks.data.BlockElement;
 import com.jgfx.engine.assets.Assets;
-import com.jgfx.engine.assets.model.Vao;
 import com.jgfx.tiles.Tile;
 import com.jgfx.tiles.atlas.Atlas;
 import com.jgfx.utils.MeshData;
 import com.jgfx.utils.Side;
 import lombok.Getter;
 
-import java.text.DecimalFormat;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Represents a generic block that can be loaded from file
@@ -51,6 +50,18 @@ public class Block extends Asset<BlockData> {
     }
 
     /**
+     * @return returns true if all of the elements on the given side are present
+     */
+    public boolean isFullSide(Side side) {
+        var fullSide = new AtomicBoolean(true);
+        elements.forEach(element -> {
+            if (!element.isFullSide(side))
+                fullSide.set(false);
+        });
+        return fullSide.get();
+    }
+
+    /**
      * This will add the block to the static block data
      */
     public void addToChunk(int x, int y, int z, byte neighborMeta, Atlas atlas, MeshData meshData) {
@@ -61,7 +72,6 @@ public class Block extends Asset<BlockData> {
                     var tile = Assets.get(element.getTile(side), Tile.class).get();
                     var tileData = tile.getCoords();
                     var uv = element.getUv(side);
-                    System.out.println(uv.toString(DecimalFormat.getInstance()));
                     var vertices = element.getVertices(side);
                     var normal = element.getNormal(side);
                     for (int i = 0; i < 4; i++) {

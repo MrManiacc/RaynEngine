@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "displayName": "BaseBlock",
+  "textures": {
+    "#top": "engine:tiles#bedrock",
+    "#bottom": "engine:tiles#bedrock",
+    "#east": "engine:tiles#bedrock",
+    "#west": "engine:tiles#bedrock",
+    "#north": "engine:tiles#bedrock",
+    "#south": "engine:tiles#bedrock"
+  },
+  "elements": [
+    {
+      "__comment": "Core Block",
+      "from": [0,0,0],
+      "to": [32,32,32],
+      "faces": {
+        "down": {"uv": [0,0,32,32],"texture": "#bottom"},
+        "up": {"uv": [0,0,32,32],"texture": "#top"},
+        "north": {"uv": [0,0,32,32],"texture": "#north"},
+        "south": {"uv": [0,0,32,32],"texture": "#south"},
+        "west": {"uv": [0,0,32,32],"texture": "#west"},
+        "east": {"uv": [0,0,32,32],"texture": "#east"}
+      }
+    }
+  ]
+}
