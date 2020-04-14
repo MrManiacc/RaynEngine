@@ -14,9 +14,10 @@ import com.jgfx.engine.injection.anotations.Resource;
 import com.jgfx.engine.injection.anotations.Single;
 import com.jgfx.engine.time.EngineTime;
 import com.jgfx.engine.utils.GLUtils;
-import com.jgfx.gui.systems.GuiPreRenderer;
+import com.jgfx.engine.window.IWindow;
 import com.jgfx.player.data.PlayerCamera;
 import com.jgfx.utils.State;
+import org.lwjgl.opengl.GL11;
 
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -24,11 +25,12 @@ import java.util.function.Predicate;
 /**
  * This class will render the renderable chunks
  */
-@AutoRegister(after = GuiPreRenderer.class)
+@AutoRegister
 public class ChunkRenderer extends EntitySystem {
     @Resource("engine:shaders#chunk") Shader shader;
     @Single("engine:entities#local-player") EntityRef localPlayer;
-    @In GLUtils glUtils;
+    @In GLUtils gl;
+    @In IWindow window;
     @Resource("engine:terrain#0") Texture terrain;
     @All({ChunkBlocks.class, ChunkMesh.class, ChunkNeighbors.class, ChunkOrigin.class, ChunkState.class}) Group chunks;
 
@@ -44,12 +46,16 @@ public class ChunkRenderer extends EntitySystem {
      * Called before render of entities
      */
     private Runnable beginRender = () -> {
+        gl.color(0.1960784314f, 0.3921568627f, 0.6588235294f, 1.0f);
+        gl.clear(true, true);
+        GL11.glViewport(0, 0, (int) window.getFbWidth(), (int) window.getFbHeight());
+
         shader.start();
         shader.loadMat4("projectionMatrix", localPlayer.get(PlayerCamera.class).projectionMatrix);
         shader.loadMat4("viewMatrix", localPlayer.get(PlayerCamera.class).viewMatrix);
-        glUtils.alphaBlending(true);
-        glUtils.cullBackFaces(true);
-        glUtils.depthTest(true);
+        gl.alphaBlending(true);
+        gl.cullBackFaces(true);
+        gl.depthTest(true);
         terrain.bind();
     };
     /**
@@ -73,8 +79,14 @@ public class ChunkRenderer extends EntitySystem {
      */
     private Runnable endRender = () -> {
         terrain.unbind();
-        glUtils.alphaBlending(false);
-        glUtils.depthTest(false);
+        gl.alphaBlending(false);
+        gl.depthTest(false);
         shader.stop();
     };
+
+
+    @Override
+    public int compareTo(EntitySystem o) {
+        return -1;
+    }
 }
