@@ -79,30 +79,6 @@ public class ShaderData implements AssetData {
     }
 
     /**
-     * Calculates the line which the main void ends
-     */
-    private int findLastLine(List<String> input) {
-        var mainStarted = false;
-        var level = -1;
-        for (int i = 0; i < input.size(); i++) {
-            var line = input.get(i);
-            if (line.trim().startsWith("void main")) {
-                mainStarted = true;
-            }
-            //how many levels deep this line goes
-            var inCount = StringUtils.countMatches(line, "{");
-            var outCount = StringUtils.countMatches(line, "}");
-            if (mainStarted) {
-                level += inCount;
-                level -= outCount;
-                if (level < 0)
-                    return i;
-            }
-        }
-        return -1;
-    }
-
-    /**
      * adds a new custom type
      *
      * @param custom the custom type
@@ -128,9 +104,6 @@ public class ShaderData implements AssetData {
         for (var line : compiledFrag.keySet())
             fragBuilder.append(compiledFrag.get(line)).append("\n");
         this.fragment = fragBuilder.toString();
-        //TODO: use these to process other data like passing variables
-        //var lastVertLine = findLastLine(vertSrc);
-        //var lastFragLine = findLastLine(fragSrc);
     }
 
     /**

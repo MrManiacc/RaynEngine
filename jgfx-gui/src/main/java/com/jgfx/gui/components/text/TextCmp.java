@@ -1,6 +1,8 @@
-package com.jgfx.gui.components;
+package com.jgfx.gui.components.text;
 
 import com.jgfx.engine.ecs.entity.ref.EntityRef;
+import com.jgfx.gui.components.AbstractElementCmp;
+import com.jgfx.gui.elements.AbstractElement;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,11 +12,14 @@ import lombok.Setter;
 public class TextCmp extends AbstractElementCmp {
     @Getter
     @Setter
-    private String text;
+    private String text = "";
 
+    public TextCmp(AbstractElement element) {
+        super(element);
+    }
 
-    public TextCmp(String text, EntityRef parent) {
-        super(parent);
-        this.text = text;
+    @Override
+    public String dataString() {
+        return "\"text\": \"" + text + "\"";
     }
 }

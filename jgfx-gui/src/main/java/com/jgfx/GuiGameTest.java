@@ -1,4 +1,4 @@
-package com.jgfx.gui;
+package com.jgfx;
 
 import com.jgfx.assets.naming.Name;
 import com.jgfx.assets.naming.Version;
@@ -12,6 +12,7 @@ import com.jgfx.engine.game.GameRunner;
 import com.jgfx.engine.glfw.GlfwInputSubsystem;
 import com.jgfx.engine.glfw.GlfwWindowSubsystem;
 import com.jgfx.engine.load.LoadProcess;
+import com.jgfx.gui.JgfxGui;
 
 import java.util.List;
 

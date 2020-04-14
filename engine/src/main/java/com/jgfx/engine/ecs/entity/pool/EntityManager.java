@@ -119,8 +119,7 @@ public class EntityManager implements EntityPool {
     public Iterable<EntityRef> getEntitiesWithAllAndExclude(Class<? extends Component>[] allClasses, Class<? extends Component>[] excludeClasses) {
         return () -> entityStore.keySet().stream()
                 //Keep entities which have all of the required components
-                .filter(id -> Arrays.stream(allClasses)
-                        .allMatch(component -> componentStore.get(id, component) != null))
+                .filter(id -> Arrays.stream(allClasses).allMatch(component -> componentStore.get(id, component) != null))
                 .filter(id -> Arrays.stream(excludeClasses)
                         .noneMatch(comp -> componentStore.get(id, comp) != null))
                 .map(this::getEntity)
@@ -152,13 +151,11 @@ public class EntityManager implements EntityPool {
     }
 
     /**
-     * Gets all of the specified entities that math the given classes
-     *
-     * @param componentClasses
-     * @return
+     * @return Gets all of the specified entities that math the given classes
      */
+    @SafeVarargs
     @Override
-    public Iterable<EntityRef> getEntitiesWithAll(Class<? extends Component>... componentClasses) {
+    public final Iterable<EntityRef> getEntitiesWithAll(Class<? extends Component>... componentClasses) {
         return () -> entityStore.keySet().stream()
                 //Keep entities which have all of the required components
                 .filter(id -> Arrays.stream(componentClasses)
@@ -173,8 +170,9 @@ public class EntityManager implements EntityPool {
      * @param componentClasses
      * @return
      */
+    @SafeVarargs
     @Override
-    public Iterable<EntityRef> getEntitiesWithOne(Class<? extends Component>... componentClasses) {
+    public final Iterable<EntityRef> getEntitiesWithOne(Class<? extends Component>... componentClasses) {
         return () -> entityStore.keySet().stream()
                 //Keep entities which have all of the required components
                 .filter(id -> Arrays.stream(componentClasses)
@@ -201,13 +199,11 @@ public class EntityManager implements EntityPool {
     }
 
     /**
-     * Counts the number of entities that have the given components. This is a slower method
-     *
-     * @param componentClasses
-     * @return
+     * @return Counts the number of entities that have the given components. This is a slower method
      */
+    @SafeVarargs
     @Override
-    public int getCountOfEntitiesWith(Class<? extends Component>... componentClasses) {
+    public final int getCountOfEntitiesWith(Class<? extends Component>... componentClasses) {
         return Lists.newArrayList(getEntitiesWithAll(componentClasses)).size();
     }
 

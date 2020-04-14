@@ -1,11 +1,20 @@
-package com.jgfx.gui.elements.stack;
+package com.jgfx.gui.elements.containers.stack;
 
 import com.google.common.collect.Lists;
+import com.jgfx.assets.naming.Name;
 import com.jgfx.gui.components.AbstractElementCmp;
+import com.jgfx.gui.components.color.BackgroundColorCmp;
+import com.jgfx.gui.components.container.SpacingCmp;
+import com.jgfx.gui.components.display.size.BoundsCmp;
+import com.jgfx.gui.components.display.render.RenderableCmp;
+import com.jgfx.gui.components.image.ImageCmp;
 import com.jgfx.gui.elements.AbstractElement;
 import com.jgfx.gui.elements.IElement;
-import com.jgfx.gui.elements.IContainer;
+import com.jgfx.gui.elements.containers.IContainer;
 import com.jgfx.gui.exception.GuiException;
+import com.jgfx.gui.helpers.IColorable;
+import com.jgfx.gui.helpers.IRenderable;
+import com.jgfx.gui.helpers.ITexturable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,12 +22,20 @@ import java.util.List;
 /**
  * This is used to simplify and abstract the way we interact with stacks. It decouples by using the IContainable
  */
-public abstract class AbstractStack<T extends AbstractElement> extends AbstractElement<T> implements IContainer<T> {
+public abstract class AbstractStack<T extends AbstractElement> extends AbstractElement<T> implements IContainer<T>, IRenderable<T>, IColorable<T>, ITexturable<T> {
     private List<IElement> elements;
 
     public AbstractStack(Class<T> type) {
         super(type);
         elements = Lists.newArrayList();
+    }
+
+    public AbstractStack(Class<T> type, float spacing) {
+        super(type);
+        elements = Lists.newArrayList();
+        var spacingCmp = new SpacingCmp(this);
+        spacingCmp.setSpacing(spacing);
+        add(spacingCmp);
     }
 
     /**
@@ -27,8 +44,8 @@ public abstract class AbstractStack<T extends AbstractElement> extends AbstractE
     public void add(IElement element) {
         elements.add(element);
         element.setParent(this);
+        element.setChild(true);
         logger.debug("Added element {} to stack {} at index {}", element.name(), name(), elements.size() - 1);
-
     }
 
     /**
@@ -44,6 +61,7 @@ public abstract class AbstractStack<T extends AbstractElement> extends AbstractE
             }
             elements.add(index, element);
             element.setParent(this);
+            element.setChild(true);
             logger.debug("Added element {} to stack {} at index {}", element.name(), name(), index);
         }
     }
@@ -78,6 +96,13 @@ public abstract class AbstractStack<T extends AbstractElement> extends AbstractE
     }
 
     /**
+     * @return returns the total number of elements
+     */
+    public int count() {
+        return elements.size();
+    }
+
+    /**
      * This will cast all of the objects to the given type, so dont worry ab it bro
      *
      * @return returns a collection of the elements with the given type
@@ -90,6 +115,13 @@ public abstract class AbstractStack<T extends AbstractElement> extends AbstractE
         return newList;
     }
 
+    /**
+     * @return returns the list of elements
+     */
+    public List<IElement> list() {
+        return elements;
+    }
+
     @Override
     public String toString() {
         var sb = new StringBuilder();
@@ -99,8 +131,7 @@ public abstract class AbstractStack<T extends AbstractElement> extends AbstractE
         sb.append(",");
         appendElements(sb);
         sb.append("}").append("}");
-        return formatJson(sb.toString());
-//        return sb.toString();
+        return sb.toString();
     }
 
     /**
@@ -173,6 +204,14 @@ public abstract class AbstractStack<T extends AbstractElement> extends AbstractE
     public T build() throws GuiException {
         for (IElement element : elements)
             element.build();
+        if (has(ImageCmp.class) || has(BackgroundColorCmp.class) && !has(RenderableCmp.class)) {
+            //This will create a model with the quad shape
+            model(new Name("quad"));
+        }
+        if (!has(SpacingCmp.class))
+            add(new SpacingCmp(this));
+        if (!has(BoundsCmp.class))
+            add(new BoundsCmp(this));
         return super.build();
     }
 }

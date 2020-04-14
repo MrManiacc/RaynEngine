@@ -3,7 +3,9 @@ package com.jgfx.engine.assets.shader;
 import com.jgfx.assets.files.AbstractAssetFileFormat;
 import com.jgfx.assets.files.AssetDataFile;
 import com.jgfx.assets.urn.ResourceUrn;
+import com.jgfx.engine.assets.shader.parse.Bind;
 import com.jgfx.engine.assets.shader.parse.ShaderParser;
+import com.jgfx.engine.assets.shader.parse.Uniform;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShaderFormat extends AbstractAssetFileFormat<ShaderData> {
-    private Logger logger = LogManager.getLogger();
+    private static final Logger logger = LogManager.getLogger();
 
     public ShaderFormat() {
         super("glsl");
@@ -34,7 +36,42 @@ public class ShaderFormat extends AbstractAssetFileFormat<ShaderData> {
         var lines = Files.readAllLines(input.getPath());
         stream.close();
         var data = buildShader(lines, urn);
+        parseUniforms(data.getVertexSource(), data);
+        parseUniforms(data.getFragmentSource(), data);
+        parseBinds(data.getVertexSource(), data);
+        parseBinds(data.getFragmentSource(), data);
         return ShaderParser.parseShader(data, urn);
+    }
+
+    /**
+     * Parses all of the uniforms
+     */
+    private void parseUniforms(String[] lines, ShaderData data) {
+        for (var l : lines) {
+            var line = l.trim();
+            if (line.trim().startsWith("uniform")) {
+                var elements = line.split(" ");
+                var type = elements[1].trim();
+                var name = elements[2].replace(";", "").trim();
+                data.addUniform(new Uniform(name, type));
+            }
+        }
+    }
+
+    /**
+     * Parses all of the binds, attribute index will be in sequential order, starting with 0
+     */
+    private void parseBinds(String[] lines, ShaderData data) {
+        var attribute = 0;
+        for (var l : lines) {
+            var line = l.trim();
+            if (line.trim().startsWith("in")) {
+                var elements = line.split(" ");
+                var type = elements[1].trim();
+                var name = elements[2].replace(";", "").trim();
+                data.addBind(new Bind(attribute++, name, type));
+            }
+        }
     }
 
     /**

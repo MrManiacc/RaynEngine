@@ -17,6 +17,12 @@ public class Uniform extends Define implements Comparable<Uniform> {
         this.name = parse(element);
     }
 
+    public Uniform(String name, String type) {
+        this.name = name;
+        this.type = type;
+    }
+
+
     public Uniform(int line, Uniform copy) {
         this.line = line;
         this.name = copy.name;

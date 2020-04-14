@@ -39,8 +39,6 @@ public class GroupBuilder {
 
     /**
      * Checks to see if this is an empty builder
-     *
-     * @return
      */
     public boolean isEmpty() {
         return allTypes.isEmpty() && oneTypes.isEmpty();

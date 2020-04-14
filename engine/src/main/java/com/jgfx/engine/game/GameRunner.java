@@ -14,6 +14,7 @@ import org.reflections.Reflections;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -29,14 +30,16 @@ public class GameRunner {
 
     @Getter private Map<Class<? extends EngineSubsystem>, Integer> mappedSubsystems;
     @Getter private Map<Class<? extends EntitySystem>, Integer> mappedEntitySystems;
+    @Getter private Map<Class<? extends EntitySystem>, Class[]> mappedEntitySystemsOrder;
     @Getter private Map<Class<? extends LoadProcess>, Integer> mappedLoadProcesses;
-    private Logger logger = LogManager.getLogger();
+    private static final Logger logger = LogManager.getLogger();
 
     private GameRunner(Class<? extends GameEngine> game) throws GameRunException {
         this.game = game;
         this.mappedSubsystems = Maps.newConcurrentMap();
         this.mappedEntitySystems = Maps.newConcurrentMap();
         this.mappedLoadProcesses = Maps.newConcurrentMap();
+        this.mappedEntitySystemsOrder = Maps.newConcurrentMap();
         execute();
     }
 
@@ -80,6 +83,10 @@ public class GameRunner {
                     logger.debug("Found entity system '" + clazz.getName() + "', with order '" + autoRegister.value() + "'.");
                 else
                     logger.debug("Found entity system '" + clazz.getName() + "'.");
+
+                if (autoRegister.after().length > 0) {
+                    this.mappedEntitySystemsOrder.put((Class<? extends EntitySystem>) clazz, autoRegister.after());
+                }
                 mappedEntitySystems.put((Class<? extends EntitySystem>) clazz, autoRegister.value());
             } else if (LoadProcess.class.isAssignableFrom(clazz)) {
                 //We're processing an engine subsystem
@@ -114,13 +121,13 @@ public class GameRunner {
         }
 
         for (var entitySystem : mappedEntitySystems.keySet()) {
-            var order = mappedEntitySystems.get(entitySystem);
             try {
                 var constructor = entitySystem.getConstructor();
-                if (order >= 0)
-                    entitySystems.add(order, constructor.newInstance());
-                else
-                    entitySystems.add(constructor.newInstance());
+                var instance = constructor.newInstance();
+                if (mappedEntitySystemsOrder.containsKey(entitySystem))
+                    instance.setLoadAfter(mappedEntitySystemsOrder.get(entitySystem));
+                entitySystems.add(instance);
+                Collections.sort(entitySystems);
                 logger.debug("Successfully instantiated entity system '" + entitySystem.getName() + "'.");
             } catch (NoSuchMethodException | IllegalAccessException | InstantiationException | InvocationTargetException e) {
                 throw new GameRunException("Error while instantiating '" + entitySystem.getName() + "', you must provide a zero argument constructor!");

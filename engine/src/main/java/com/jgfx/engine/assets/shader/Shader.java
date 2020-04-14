@@ -17,6 +17,7 @@ import org.lwjgl.opengl.GL20;
 import java.nio.FloatBuffer;
 import java.util.Map;
 import java.util.function.BiConsumer;
+import java.util.function.Consumer;
 
 import static org.lwjgl.opengl.GL20.*;
 
@@ -25,7 +26,7 @@ public class Shader extends Asset<ShaderData> {
     @Getter
     private final Map<String, Integer> uniforms = Maps.newHashMap();
     private final FloatBuffer matrixBuffer;
-    private Logger logger = LogManager.getLogger();
+    private static final Logger logger = LogManager.getLogger();
 
     /**
      * The constructor for an asset. It is suggested that implementing classes provide a constructor taking both the urn, and an initial AssetData to load.
@@ -77,17 +78,22 @@ public class Shader extends Asset<ShaderData> {
         programID = GL20.glCreateProgram();
         GL20.glAttachShader(programID, vertexID);
         GL20.glAttachShader(programID, fragmentID);
-        data.getBindsMap().forEach(parseBinds);
+        //Parse the binds
+
+        data.getBinds().forEach(parseBinds);
+
         GL20.glLinkProgram(programID);
         GL20.glValidateProgram(programID);
-        data.getUniformMap().forEach(parseUniforms);
+        //parse the uniforms
+        data.getUniforms().forEach(parseUniforms);
+
         logger.info("Shader {} loaded successfully", this.getUrn().toString());
     }
 
     /**
      * Parses the binds for the shader
      */
-    private BiConsumer<String, Bind> parseBinds = (s, bind) ->
+    private Consumer<Bind> parseBinds = bind ->
     {
         GL20.glBindAttribLocation(programID, bind.getAttribute(), bind.getName());
     };
@@ -95,7 +101,7 @@ public class Shader extends Asset<ShaderData> {
     /**
      * Parses the uniforms for the shader
      */
-    private BiConsumer<String, Uniform> parseUniforms = (s, uniform) ->
+    private Consumer<Uniform> parseUniforms = uniform ->
     {
         this.uniforms.put(uniform.getName(), GL20.glGetUniformLocation(programID, uniform.getName()));
     };

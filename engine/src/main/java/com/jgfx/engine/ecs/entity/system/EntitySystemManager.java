@@ -82,4 +82,11 @@ public class EntitySystemManager {
             }
         });
     }
+
+    /**
+     * Initialize all of the systems
+     */
+    public void postInitialize() {
+        systems.forEach(EntitySystem::postInitialize);
+    }
 }

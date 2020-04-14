@@ -31,6 +31,12 @@ public class Bind extends Define implements Comparable<Bind> {
         this.type = type;
     }
 
+    public Bind(int attribute, String name, String type) {
+        this.attribute = attribute;
+        this.name = name;
+        this.type = type;
+    }
+
     /**
      * Creates a copy with the specified line; used for importing
      *

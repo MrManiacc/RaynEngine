@@ -13,13 +13,27 @@ public interface IWindow {
 
     float getHeight();
 
-    float getContentScale();
+    float getFbWidth();
+
+    float getFbHeight();
+
+    /**
+     * @return returns computed aspect ratio
+     */
+    default float getAspect() {
+        return getFbWidth() / getFbHeight();
+    }
+
+    float getWidthScale();
+
+    float getHeightScale();
 
     boolean isFullscreen();
 
     boolean isVsync();
 
     boolean isResizable();
+
 
     boolean isFocused();
 

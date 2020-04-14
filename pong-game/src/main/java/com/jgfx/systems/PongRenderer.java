@@ -6,7 +6,6 @@ import com.jgfx.components.MaterialComponent;
 import com.jgfx.components.Physics2dComponent;
 import com.jgfx.engine.assets.shader.Shader;
 import com.jgfx.engine.assets.texture.Texture;
-import com.jgfx.engine.ecs.component.SingleComponent;
 import com.jgfx.engine.ecs.entity.ref.EntityRef;
 import com.jgfx.engine.ecs.entity.system.EntitySystem;
 import com.jgfx.engine.ecs.group.Group;
@@ -34,11 +33,11 @@ public class PongRenderer extends EntitySystem {
     @Override
     protected void process(EngineTime time) {
         shader.start();
-        shader.loadMat4("projectionMatrix", player.getComponent(CameraComponent.class).projectionMatrix);
+        shader.loadMat4("projectionMatrix", player.get(CameraComponent.class).projectionMatrix);
         glUtils.alphaBlending(true);
         entities.forEach(entity -> {
-            var physics = entity.getComponent(Physics2dComponent.class);
-            var materialRef = entity.getComponent(MaterialComponent.class);
+            var physics = entity.get(Physics2dComponent.class);
+            var materialRef = entity.get(MaterialComponent.class);
             var shape = shapeUtils.get(materialRef.shapeUrn);
             var texture = assetManager.getAsset(materialRef.textureUrn, Texture.class).get();
             texture.bind();

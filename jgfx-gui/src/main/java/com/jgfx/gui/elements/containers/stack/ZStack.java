@@ -1,4 +1,4 @@
-package com.jgfx.gui.elements.stack;
+package com.jgfx.gui.elements.containers.stack;
 
 import com.jgfx.gui.helpers.IAlignable;
 import com.jgfx.gui.helpers.IMarginable;

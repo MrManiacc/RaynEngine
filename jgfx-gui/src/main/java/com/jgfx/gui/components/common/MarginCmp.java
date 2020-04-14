@@ -8,20 +8,20 @@ import lombok.Setter;
 /**
  * Represents a padding component
  */
-public class PaddingCmp extends AbstractElementCmp {
+public class MarginCmp extends AbstractElementCmp {
     @Getter
     @Setter
-    private float left = 5.0f, right = 5.0f, top = 5.0f, bottom = 5.0f;
+    private int left = 5, right = 5, top = 5, bottom = 5;
 
-    public PaddingCmp(AbstractElement element) {
+    public MarginCmp(AbstractElement element) {
         super(element);
     }
 
     @Override
-    protected String dataString() {
-        return "'left': " + left + ",\n" +
-                "'top': " + top + ",\n" +
-                "'right': " + right + ",\n" +
-                "'bottom': " + bottom;
+    public String dataString() {
+        return "\"left\": " + left + "," +
+                "\"top\": " + top + "," +
+                "\"right\": " + right + "," +
+                "\"bottom\": " + bottom;
     }
 }

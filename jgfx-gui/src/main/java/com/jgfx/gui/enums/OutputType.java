@@ -1,4 +1,9 @@
 package com.jgfx.gui.enums;
 
-public class OutputType {
+/**
+ * The type of data to output
+ */
+public enum OutputType {
+    JSON, XML, YAML
 }
+

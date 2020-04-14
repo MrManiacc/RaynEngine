@@ -32,6 +32,7 @@ public class Vao {
     public static final int ARRAYS_TRIANGLE_STRIPS = 3;
     public static final int ARRAYS_TRIANGLES = 4;
     public static final int ARRAYS_TRIANGLE_FAN = 5;
+    public static final int ARRAYS_LINES = 6;
 
     private Vao(int id, int attributes, int drawType) {
         this.id = id;
@@ -103,6 +104,9 @@ public class Vao {
                 break;
             case ARRAYS_TRIANGLE_FAN:
                 glDrawArrays(GL_TRIANGLE_FAN, 0, indexCount);
+                break;
+            case ARRAYS_LINES:
+                glDrawArrays(GL_LINE, 0, indexCount);
                 break;
         }
         unbind();

@@ -1,4 +1,4 @@
-package com.jgfx.gui.types;
+package com.jgfx.gui.enums;
 
 /**
  * Keeps track of the weight of fonts

@@ -42,7 +42,7 @@ public class TextureFormat extends AbstractAssetFileFormat<TextureData> {
             IntBuffer comp = stack.mallocInt(1);
 
             /* Load image */
-            stbi_set_flip_vertically_on_load(true);
+            stbi_set_flip_vertically_on_load(false);
             image = stbi_load(path, w, h, comp, 4);
             if (image == null) {
                 throw new IOException("Failed to load a texture file!"

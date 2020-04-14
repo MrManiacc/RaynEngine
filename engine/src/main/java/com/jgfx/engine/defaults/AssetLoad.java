@@ -8,6 +8,8 @@ import com.jgfx.assets.type.AssetType;
 import com.jgfx.assets.type.AssetTypeManager;
 import com.jgfx.engine.assets.config.Config;
 import com.jgfx.engine.assets.config.ConfigFormat;
+import com.jgfx.engine.assets.fbo.Fbo;
+import com.jgfx.engine.assets.fbo.FboFormat;
 import com.jgfx.engine.assets.shader.Shader;
 import com.jgfx.engine.assets.shader.ShaderFormat;
 import com.jgfx.engine.assets.texture.Texture;
@@ -63,6 +65,7 @@ public class AssetLoad extends SingleStepLoadProcess {
         typeManager.registerAssetType(Shader.class, Shader::new, new ShaderFormat(), "shaders");
         typeManager.registerAssetType(Texture.class, Texture::new, new TextureFormat(), "textures");
         typeManager.registerAssetType(Config.class, Config::new, new ConfigFormat(), "config");
+        typeManager.registerAssetType(Fbo.class, Fbo::new, new FboFormat(), "fbos");
     }
 
     /**

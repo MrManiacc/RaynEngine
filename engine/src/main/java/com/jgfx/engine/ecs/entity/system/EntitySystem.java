@@ -16,6 +16,11 @@ public abstract class EntitySystem implements Comparable<EntitySystem> {
     @Setter private boolean processing = true;
     @Getter private boolean initialized = false;
 
+    @Getter
+    @Setter
+    private Class[] loadAfter;
+
+
     public EntitySystem() {
         this.priority = nextPriority++;
     }
@@ -24,6 +29,12 @@ public abstract class EntitySystem implements Comparable<EntitySystem> {
      * When the entity system is initialized
      */
     public void initialize() {
+    }
+
+    /**
+     * When the entity system is initialized
+     */
+    public void postInitialize() {
     }
 
     /**
@@ -50,6 +61,15 @@ public abstract class EntitySystem implements Comparable<EntitySystem> {
 
     @Override
     public int compareTo(EntitySystem o) {
-        return priority - o.priority;
+        if (loadAfter == null)
+            return 0;
+        else {
+            for (var after : loadAfter) {
+                if (after.isInstance(o)) {
+                    return -1;
+                }
+            }
+        }
+        return 1;
     }
 }

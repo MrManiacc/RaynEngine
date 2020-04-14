@@ -10,6 +10,7 @@ import com.jgfx.engine.injection.anotations.Resource;
 import com.jgfx.engine.utils.GLUtils;
 import com.jgfx.engine.window.IWindow;
 import lombok.Getter;
+import org.lwjgl.opengl.GL11;
 
 public class GlfwWindowSubsystem implements EngineSubsystem {
     @Getter
@@ -25,7 +26,7 @@ public class GlfwWindowSubsystem implements EngineSubsystem {
     public void preInitialise() {
         glUtils = CoreContext.put(new GLUtils());
         //TODO: create the window here, and upload it to the context
-        this.window = CoreContext.put(IWindow.class, new GlfwWindow("ChunkWorld", 1350, 900, false, true, false));
+        this.window = CoreContext.put(IWindow.class, new GlfwWindow("ChunkWorld", 1440, 1080, false, true, true));
         window.init();
     }
 
@@ -42,20 +43,22 @@ public class GlfwWindowSubsystem implements EngineSubsystem {
      */
     @Override
     public void preUpdate() {
-        if (window.isCloseRequested())
-            engine.shutdown();
+
         if (glUtils != null) {
             glUtils.color(0.1960784314f, 0.3921568627f, 0.6588235294f, 1.0f);
             glUtils.clear(true, true);
+            GL11.glViewport(0, 0, (int) window.getFbWidth(), (int) window.getFbHeight());
         }
     }
 
     /**
      * We want to update the window here
-     *
      */
     @Override
     public void postUpdate() {
+        if (window.isCloseRequested())
+            engine.shutdown();
         window.process();
+
     }
 }

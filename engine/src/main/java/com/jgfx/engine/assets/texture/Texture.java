@@ -3,6 +3,7 @@ package com.jgfx.engine.assets.texture;
 import com.jgfx.assets.Asset;
 import com.jgfx.assets.type.AssetType;
 import com.jgfx.assets.urn.ResourceUrn;
+import lombok.Getter;
 
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL11.GL_UNSIGNED_BYTE;
@@ -10,6 +11,7 @@ import static org.lwjgl.opengl.GL11.GL_UNSIGNED_BYTE;
 public class Texture extends Asset<TextureData> {
     private volatile int id;
     private int target;
+    @Getter private float width, height;
 
     /**
      * The constructor for an asset. It is suggested that implementing classes provide a constructor taking both the urn, and an initial AssetData to load.
@@ -44,6 +46,8 @@ public class Texture extends Asset<TextureData> {
      */
     public void reload(TextureData data) {
         //Load the texture
+        this.width = data.getWidth();
+        this.height = data.getHeight();
         this.id = glGenTextures();
         this.target = data.getTarget();
         bind();

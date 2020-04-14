@@ -70,8 +70,7 @@ public class AssetSourceResolver {
     }
 
     /**
-     * Extracts the asset meta data from the files before loading
-     *
+     * Extracts the asset meta data from the files before loading     *
      * @return returns the asset data
      */
     private List<AssetMetaData> getMetaData(Class<? extends Asset> assetClass) {

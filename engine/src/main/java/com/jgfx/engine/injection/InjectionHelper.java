@@ -6,12 +6,15 @@ import com.jgfx.assets.context.Context;
 import com.jgfx.assets.context.CoreContext;
 import com.jgfx.assets.type.AssetManager;
 import com.jgfx.assets.urn.ResourceUrn;
+import com.jgfx.engine.ecs.component.Component;
 import com.jgfx.engine.ecs.entity.pool.EntityManager;
+import com.jgfx.engine.ecs.entity.ref.EntityRef;
 import com.jgfx.engine.ecs.group.Group;
 import com.jgfx.engine.ecs.group.GroupBuilder;
 import com.jgfx.engine.event.Bus;
 import com.jgfx.engine.injection.anotations.*;
-import lombok.SneakyThrows;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.reflections.ReflectionUtils;
 
 import java.lang.reflect.Field;
@@ -24,6 +27,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * Handles injections into objects
  */
 public class InjectionHelper {
+    private static final Logger logger = LogManager.getLogger(InjectionHelper.class);
 
     private InjectionHelper() {
     }
@@ -144,8 +148,11 @@ public class InjectionHelper {
         var cls = object.getClass();
         if (cls.isAnnotationPresent(EventSubscriber.class)) {
             var subscription = cls.getDeclaredAnnotation(EventSubscriber.class);
-            for (Bus bus : subscription.value())
+            for (Bus bus : subscription.value()) {
                 bus.register(object);
+                logger.debug("Injected subscribable into {} with bus {}", object.getClass().getSimpleName(), bus.name());
+            }
+
         }
     }
 
@@ -205,7 +212,16 @@ public class InjectionHelper {
                     if (entity != null) {
                         try {
                             field.setAccessible(true);
-                            field.set(object, entity);
+                            if (EntityRef.class.isAssignableFrom(field.getType())) {
+                                field.set(object, entity);
+                            } else if (Component.class.isAssignableFrom(field.getType())) {
+                                //We're trying to map a component
+                                var componentType = (Class<? extends Component>) field.getType();
+                                if (entity.has(componentType)) {
+                                    var component = entity.get(componentType);
+                                    field.set(object, component);
+                                }
+                            }
                         } catch (IllegalAccessException e) {
                             errorMessage.set(Optional.of("Illegal access, failed to inject to object '" + object.getClass().getName() + "'."));
                             break;

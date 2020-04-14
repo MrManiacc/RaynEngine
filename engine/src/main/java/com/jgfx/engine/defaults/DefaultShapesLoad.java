@@ -26,7 +26,11 @@ public class DefaultShapesLoad extends SingleStepLoadProcess {
         //The quad
         {
             quadVao.bind();
-            quadVao.createAttribute(new float[]{-1, 1, -1, -1, 1, 1, 1, -1}, 2);
+            quadVao.createAttribute(new float[]{
+                    -1, 1,
+                    -1, -1,
+                    1, 1,
+                    1, -1}, 2);
             quadVao.createAttribute(new float[]{
                     0, 0,
                     1, 0,

@@ -63,6 +63,13 @@ public class World {
     }
 
     /**
+     * Called after everything has been initialized
+     */
+    public void postInitialize() {
+        systemManager.postInitialize();
+    }
+
+    /**
      * @return returns an entity with no components
      */
     public EntityRef createEntity() {

@@ -1,6 +1,8 @@
 package com.jgfx.engine.ecs.entity.ref;
 
 import com.google.common.base.Objects;
+import com.jgfx.assets.context.CoreContext;
+import com.jgfx.engine.ecs.World;
 import com.jgfx.engine.ecs.component.Component;
 import com.jgfx.engine.ecs.entity.pool.EntityPool;
 
@@ -68,14 +70,30 @@ public abstract class EntityRef {
 
     /**
      * Gets a component by the given class
+     * by default we'll check the super class and attempt to do some casting
+     *
+     * @return returns component by type
+     */
+    public <T extends Component> T get(Class<T> componentClass) {
+        return get(componentClass, true);
+    }
+
+    /**
+     * Gets a component by the given class
      *
      * @param componentClass
      * @param <T>
      * @return returns component by type
      */
-    public <T extends Component> T getComponent(Class<T> componentClass) {
+    public <T extends Component> T get(Class<T> componentClass, boolean useParent) {
         if (isExists()) {
-            return getPool().getComponent(getId(), componentClass);
+            if (!useParent)
+                return getPool().getComponent(getId(), componentClass);
+            var parentComponentClass = getSuperComponent(componentClass);
+            var parentComponent = getPool().getComponent(getId(), parentComponentClass);
+            if (parentComponent != null && parentComponentClass.isAssignableFrom(componentClass)) {
+                return componentClass.cast(parentComponent);
+            }
         }
         return null;
     }
@@ -86,10 +104,19 @@ public abstract class EntityRef {
      * @param componentClass
      * @return returns component by type
      */
-    public void removeComponent(Class<? extends Component> componentClass) {
+    public void remove(Class<? extends Component> componentClass) {
         if (isActive()) {
             getPool().removeComponent(getId(), componentClass);
         }
+    }
+
+    /**
+     * Removes all of the components from the entity
+     */
+    public void removeAll() {
+        if (isActive())
+            for (var component : iterateComponents())
+                remove(component.getClass());
     }
 
     /**
@@ -99,7 +126,7 @@ public abstract class EntityRef {
      * @param <T>
      * @return
      */
-    public <T extends Component> T addComponent(T component) {
+    public <T extends Component> T add(T component) {
         if (isActive()) {
             return getPool().addComponent(getId(), component);
         }
@@ -115,7 +142,7 @@ public abstract class EntityRef {
      */
     public <T extends Component> void ifPresent(Class<T> componentClass, Consumer<T> consumer) {
         if (isExists()) {
-            var component = getComponent(componentClass);
+            var component = get(componentClass);
             if (component != null)
                 consumer.accept(component);
         }
@@ -130,7 +157,7 @@ public abstract class EntityRef {
      */
     public <T extends Component> void ifPresentOrElse(Class<T> componentClass, Consumer<T> consumer, Runnable runnable) {
         if (isExists()) {
-            var component = getComponent(componentClass);
+            var component = get(componentClass);
             if (component != null)
                 consumer.accept(component);
             else
@@ -143,8 +170,46 @@ public abstract class EntityRef {
      *
      * @return returns true if component is present
      */
-    public boolean hasComponent(Class<? extends Component> componentClass) {
-        return getComponent(componentClass) != null;
+    public boolean has(Class<? extends Component> componentClass) {
+        return has(componentClass, true);
+    }
+
+    /**
+     * Checks to see if this entity has the given component
+     *
+     * @return returns true if component is present
+     */
+    public boolean has(Class<? extends Component> componentClass, boolean checkSuper) {
+        if (!checkSuper) {
+            return get(componentClass, false) != null;
+        } else {
+            if (get(componentClass, false) != null)
+                return true;
+            var superClass = componentClass.getSuperclass();
+            if (superClass != null && Component.class.isAssignableFrom(superClass)) {
+                var superComponent = (Class<? extends Component>) superClass;
+                var component = get(superComponent);
+                if (component != null) {
+                    return component.getClass().isAssignableFrom(componentClass);
+                }
+            }
+        }
+        return false;
+    }
+
+    /**
+     * @return returns the correct component class, will first check
+     */
+    private Class<? extends Component> getSuperComponent(Class<? extends Component> component) {
+        if (has(component, false))
+            return component;
+        if (has(component, true)) {
+            var superClass = component.getSuperclass();
+            if (superClass != null && Component.class.isAssignableFrom(superClass)) {
+                return (Class<? extends Component>) superClass;
+            }
+        }
+        return component;
     }
 
     /**

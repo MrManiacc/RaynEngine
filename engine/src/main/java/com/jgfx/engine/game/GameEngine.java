@@ -64,6 +64,8 @@ public class GameEngine {
         initialize();
         while (tick()) {
         }
+        world.dispose();
+        System.exit(0);
     }
 
     /**
@@ -94,6 +96,15 @@ public class GameEngine {
         postInitSubsystems();
 
         postInitialization();
+
+        postInitEntitySystems();
+    }
+
+    /**
+     * Post initializes the entity systems
+     */
+    private void postInitEntitySystems() {
+
     }
 
     /**
@@ -242,6 +253,5 @@ public class GameEngine {
      */
     public void shutdown() {
         shutdownRequested = true;
-        world.dispose();
     }
 }

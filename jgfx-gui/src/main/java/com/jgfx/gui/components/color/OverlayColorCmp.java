@@ -5,8 +5,8 @@ import com.jgfx.gui.elements.AbstractElement;
 /**
  * Represents a foreground color
  */
-public class BackgroundColorCmp extends AbstractColorCmp {
-    public BackgroundColorCmp(AbstractElement parent) {
+public class OverlayColorCmp extends AbstractColorCmp {
+    public OverlayColorCmp(AbstractElement parent) {
         super(parent);
     }
 }

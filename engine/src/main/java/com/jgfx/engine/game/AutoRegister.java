@@ -8,8 +8,10 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface AutoRegister {
+    int value() default -1;
+
     /**
      * @return returns the order in which to register this asset, if -1, then we just append it next
      */
-    int value() default -1;
+    Class[] after() default {};
 }

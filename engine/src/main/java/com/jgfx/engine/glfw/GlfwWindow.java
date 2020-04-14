@@ -1,7 +1,11 @@
 package com.jgfx.engine.glfw;
 
+import com.google.common.util.concurrent.AtomicDouble;
+import com.jgfx.engine.event.Bus;
 import com.jgfx.engine.window.IWindow;
 import lombok.Getter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.GL;
 import org.lwjgl.system.MemoryStack;
@@ -20,8 +24,9 @@ import static org.lwjgl.system.MemoryStack.stackPush;
 public class GlfwWindow implements IWindow {
     @Getter
     private String title;
-    @Getter
-    private float width, height;
+    private AtomicDouble width, height;
+
+    private AtomicDouble fbWidth, fbHeight;
     @Getter
     private boolean fullscreen;
     @Getter
@@ -31,15 +36,18 @@ public class GlfwWindow implements IWindow {
     @Getter
     private long handle;
     @Getter
-    private float contentScale;
+    private float widthScale, heightScale;
+    private static final Logger logger = LogManager.getLogger(IWindow.class);
 
     public GlfwWindow(String title, int width, int height, boolean fullscreen, boolean vsync, boolean resizable) {
         this.title = title;
-        this.width = width;
-        this.height = height;
+        this.width = new AtomicDouble(width);
+        this.height = new AtomicDouble(height);
         this.fullscreen = fullscreen;
         this.vsync = vsync;
         this.resizable = resizable;
+        this.fbWidth = new AtomicDouble(width);
+        this.fbHeight = new AtomicDouble(height);
     }
 
     /**
@@ -67,7 +75,7 @@ public class GlfwWindow implements IWindow {
         if (!glfwInit())
             throw new IllegalStateException("Unable to initialize GLFW");
         setHints();
-        centerWindow();
+        setupWindow();
         finishWindow();
     }
 
@@ -82,38 +90,91 @@ public class GlfwWindow implements IWindow {
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2);
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
         glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
-
-        handle = glfwCreateWindow((int) width, (int) height, title, 0, 0);
+        handle = glfwCreateWindow((int) width.get(), (int) height.get(), title, 0, 0);
         if (handle == 0)
             throw new RuntimeException("Failed to create the GLFW window");
         glfwSetWindowContentScaleCallback(handle, (handle, xscale, yscale) -> {
-            contentScale = Math.max(xscale, yscale);
+            widthScale = xscale;
+            heightScale = yscale;
         });
     }
 
     /**
      * Centers the window
      */
-    private void centerWindow() {
+    private void setupWindow() {
         try (MemoryStack stack = stackPush()) {
             IntBuffer pWidth = stack.mallocInt(1); // int*
             IntBuffer pHeight = stack.mallocInt(1); // int*
+            IntBuffer pFbWidth = stack.mallocInt(1); // int*
+            IntBuffer pFbHeight = stack.mallocInt(1); // int*
             FloatBuffer sx = stack.mallocFloat(1);
             FloatBuffer sy = stack.mallocFloat(1);
             // Get the window size passed to glfwCreateWindow
             glfwGetWindowSize(handle, pWidth, pHeight);
 
+            center();
+//            glfwSetWindowPos(handle, 3800, 100);
+
+            glfwGetWindowContentScale(handle, sx, sy);
+            widthScale = sx.get(0);
+            heightScale = sy.get(0);
+            glfwGetFramebufferSize(handle, pFbWidth, pFbHeight);
+            this.fbWidth.set(pFbWidth.get(0));
+            this.fbHeight.set(pFbHeight.get(0));
+            glfwSetWindowSizeCallback(handle, new GLFWWindowSizeCallback() {
+                @Override
+                public void invoke(long window, int w, int h) {
+                    logger.info("Window resized from [{}, {}] to [{}, {}]", width.get(), height.get(), w, h);
+                    width.set(w);
+                    height.set(h);
+                    glfwGetFramebufferSize(handle, pFbWidth, pFbHeight);
+                    fbWidth.set(pFbWidth.get(0));
+                    fbHeight.set(pFbHeight.get(0));
+                    Bus.LOGIC.post(new WindowResizeEvent());
+
+                    glfwGetWindowContentScale(handle, sx, sy);
+                    widthScale = sx.get(0);
+                    heightScale = sy.get(0);
+                    center();
+
+                }
+            });
+
+        }
+    }
+
+    public void center() {
+        try (MemoryStack stack = stackPush()) {
+            IntBuffer pWidth = stack.mallocInt(1); // int*
+            IntBuffer pHeight = stack.mallocInt(1); // int*
+
+            glfwGetWindowSize(handle, pWidth, pHeight);
             // Get the resolution of the primary monitor
             GLFWVidMode vidmode = glfwGetVideoMode(glfwGetPrimaryMonitor());
-
             // Center the window
+
             glfwSetWindowPos(handle,
                     (vidmode.width() - pWidth.get(0)) / 2,
                     (vidmode.height() - pHeight.get(0)) / 2
             );
-            glfwGetWindowContentScale(handle, sx, sy);
-            contentScale = Math.max(sx.get(0), sy.get(0));
         }
+    }
+
+    public float getFbWidth() {
+        return (float) fbWidth.get();
+    }
+
+    public float getFbHeight() {
+        return (float) fbHeight.get();
+    }
+
+    public float getWidth() {
+        return (float) width.get();
+    }
+
+    public float getHeight() {
+        return (float) height.get();
     }
 
     /**
@@ -121,8 +182,6 @@ public class GlfwWindow implements IWindow {
      */
     public void setSize(int width, int height) {
         glfwSetWindowSize(handle, width, height);
-        this.width = width;
-        this.height = height;
     }
 
     /**

@@ -1,10 +1,9 @@
-package com.jgfx.gui.fbo;
+package com.jgfx.engine.assets.fbo;
 
 import com.jgfx.assets.Asset;
 import com.jgfx.assets.context.CoreContext;
 import com.jgfx.assets.type.AssetType;
 import com.jgfx.assets.urn.ResourceUrn;
-import com.jgfx.engine.assets.texture.Texture;
 import com.jgfx.engine.window.IWindow;
 import lombok.Getter;
 import org.apache.logging.log4j.LogManager;
@@ -96,6 +95,27 @@ public class Fbo extends Asset<FboData> {
     }
 
     /**
+     * Binds the texture for rendering
+     */
+    public void bindTexture() {
+        glBindTexture(GL_TEXTURE_2D, colorTexture);
+    }
+
+    /**
+     * Binds the texture for rendering
+     */
+    public void bindDepthTexture() {
+        glBindTexture(GL_TEXTURE_2D, depthTexture);
+    }
+
+    /**
+     * Unbinds the texture
+     */
+    public void unbindTexture() {
+        glBindTexture(GL_TEXTURE_2D, 0);
+    }
+
+    /**
      * Creates a multi sampled color buffer with the given sample size, and width/height
      */
     private void createMultisampledColorBuffer(int sampleSize, int width, int height) {
@@ -176,7 +196,7 @@ public class Fbo extends Asset<FboData> {
         GL30.glBindFramebuffer(GL30.GL_READ_FRAMEBUFFER, fboId);
         GL11.glDrawBuffer(GL11.GL_BACK);
         GL11.glReadBuffer(texture);
-        GL30.glBlitFramebuffer(0, 0, width, height, 0, 0, (int) window.getWidth(), (int) window.getHeight(), GL11.GL_COLOR_BUFFER_BIT, GL11.GL_NEAREST);
+        GL30.glBlitFramebuffer(0, 0, width, height, 0, 0, (int) window.getFbWidth(), (int) window.getFbHeight(), GL11.GL_COLOR_BUFFER_BIT, GL11.GL_NEAREST);
         unbind();
     }
 
