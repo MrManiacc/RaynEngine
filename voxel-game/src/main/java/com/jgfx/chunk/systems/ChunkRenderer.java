@@ -46,10 +46,6 @@ public class ChunkRenderer extends EntitySystem {
      * Called before render of entities
      */
     private Runnable beginRender = () -> {
-        gl.color(0.1960784314f, 0.3921568627f, 0.6588235294f, 1.0f);
-        gl.clear(true, true);
-        GL11.glViewport(0, 0, (int) window.getFbWidth(), (int) window.getFbHeight());
-
         shader.start();
         shader.loadMat4("projectionMatrix", localPlayer.get(PlayerCamera.class).projectionMatrix);
         shader.loadMat4("viewMatrix", localPlayer.get(PlayerCamera.class).viewMatrix);
